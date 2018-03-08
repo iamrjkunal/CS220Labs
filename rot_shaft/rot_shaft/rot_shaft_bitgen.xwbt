@@ -1,8 +1,0 @@
-INTSTYLE=ise
-INFILE=/media/akashish/UBUNTU 17_1/CS220LAB4/rot_shaft/rot_shaft/rot_shaft.ncd
-OUTFILE=/media/akashish/UBUNTU 17_1/CS220LAB4/rot_shaft/rot_shaft/rot_shaft.bit
-FAMILY=Spartan3E
-PART=xc3s500e-4fg320
-WORKINGDIR=/media/akashish/UBUNTU 17_1/CS220LAB4/rot_shaft/rot_shaft
-LICENSE=WebPack
-USER_INFO=211450758_0_0_676

@@ -1,8 +1,0 @@
-INTSTYLE=impact
-INFILE=/media/akashish/UBUNTU 17_1/CS220LAB4/rot_shaft/rot_shaft/impact.xsl
-OUTFILE=/media/akashish/UBUNTU 17_1/CS220LAB4/rot_shaft/rot_shaft/impact.xsl
-FAMILY=Multiple
-PART=Multiple
-WORKINGDIR=/media/akashish/UBUNTU 17_1/CS220LAB4/rot_shaft/rot_shaft
-LICENSE=iMPACT
-USER_INFO=iMPACT
