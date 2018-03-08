@@ -1,0 +1,8 @@
+INTSTYLE=impact
+INFILE=/users/btech/rajkush/Desktop/CS220Labs/rot_shaft/square_grid/sq_grid/impact.xsl
+OUTFILE=/users/btech/rajkush/Desktop/CS220Labs/rot_shaft/square_grid/sq_grid/impact.xsl
+FAMILY=Multiple
+PART=Multiple
+WORKINGDIR=/users/btech/rajkush/Desktop/CS220Labs/rot_shaft/square_grid/sq_grid
+LICENSE=iMPACT
+USER_INFO=iMPACT

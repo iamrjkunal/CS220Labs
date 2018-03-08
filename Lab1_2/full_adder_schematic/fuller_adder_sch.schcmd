@@ -1,0 +1,167 @@
+add instance title 1744 1248 R0 -sn=1
+select figure at 1182 1006 8 -branches -sn=1
+delete selection -sn=1
+add instance title 1808 1200 R0 -sn=1
+add instance title 1168 2768 R0 -sn=1
+select figure at 1501 1053 8 -branches -sn=1
+delete selection -sn=1
+select figure at 619 2492 8 -branches -sn=1
+delete selection -sn=1
+select figure at 423 2317 8 -branches -sn=1
+select figure at 423 2317 8 -branches -sn=1
+add instance title 1152 2784 R0 -sn=1
+select figure at 335 2590 8 -branches -sn=1
+select figure at 335 2590 8 -branches -sn=1
+add attr BA|XLXI_4|NameFieldText "Full adder" EditName|all:1|EditValue|all:1|EditTrait|all:1|View|all:1|Delete|all:1|Verilog|all:0|Vhdl|all:0|ValueType|String -addInstWindow -sn=1
+select figure at 20 1028 8 -branches -sn=1
+select figure at 769 1856 8 -branches -sn=1
+select figure at 398 2070 8 -branches -sn=1
+select figure at 401 2073 8 -branches -all -sn=1
+select figure at 714 1784 8 -branches -sn=1
+add instance myxor 736 1680 R0 -sn=1
+add instance myxor 256 1680 R0 -sn=1
+add instance and2 432 1888 R0 -sn=1
+add instance and2 848 1872 R0 -sn=1
+add instance and2 1216 1888 R0 -sn=1
+add instance or3 416 2192 R0 -sn=1
+select figure at 555 2045 8 -branches -sn=1
+move instance at 416 2192 to 432 2192 R0 -keepConn -sn=1
+move instance at 432 2192 to 1392 2208 R0 -keepConn -sn=1
+select figure at 916 1797 8 -branches -sn=1
+move instance at 848 1872 to 416 2048 R0 -keepConn -sn=1
+select figure at 1359 1811 8 -branches -sn=1
+move instance at 1216 1888 to 464 2224 R0 -keepConn -sn=1
+select figure at 1520 2060 8 -branches -sn=1
+move instance at 1392 2208 to 832 2080 R0 -keepConn -sn=1
+select figure at 440 1610 8 -branches -sn=1
+move instance at 256 1680 to 384 1248 R0 -keepConn -sn=1
+select figure at 906 1642 8 -branches -sn=1
+move instance at 736 1680 to 912 1456 R0 -keepConn -sn=1
+select figure at 383 1217 8 -branches -sn=1
+select figure at 421 1772 8 -branches -sn=1
+select figure at 433 1772 8 -branches -sn=1
+select figure at 435 1769 8 -branches -all -sn=1
+add autowire 688 1808 752 1856 8 -sn=1
+undo
+add autowire 704 1792 704 1904 8 -sn=1
+add autowire 704 1904 848 1888 8 -sn=1
+undo
+undo
+add autowire 688 1792 832 1888 8 -sn=1
+add autowire 672 1952 832 1952 8 -sn=1
+add autowire 720 2128 832 2016 8 -sn=1
+add autowire 384 1152 464 2096 8 -sn=1
+add autowire 768 1152 912 1360 8 -sn=1
+undo
+undo
+undo
+undo
+undo
+undo
+add autowire 416 1632 448 1664 8 -sn=1
+add autowire 448 1664 464 1728 8 -sn=1
+add autowire 464 1728 624 1616 8 -sn=1
+undo
+undo
+undo
+undo
+undo
+undo
+undo
+undo
+add autowire 688 1792 832 1888 8 -sn=1
+add autowire 672 1952 832 1952 8 -sn=1
+add autowire 720 2128 832 2016 8 -sn=1
+add autowire 432 1760 384 1152 8 -sn=1
+undo
+add autowire 384 1152 464 2112 8 -sn=1
+undo
+undo
+select figure at 326 2227 8 -branches -sn=1
+select figure at 408 2172 8 -branches -sn=1
+add autowire 384 1152 464 2096 8 -sn=1
+add autowire 720 2128 832 2016 8 -sn=1
+add autowire 432 1760 368 1776 8 -sn=1
+add autowire 384 1216 416 1920 8 -sn=1
+add autowire 464 2160 736 1648 8 -sn=1
+add autowire 416 1984 400 2048 8 -sn=1
+add autowire 432 1824 400 1824 8 -sn=1
+add autowire 768 1152 736 1584 8 -sn=1
+add txwin 1120 1600 Text_Value 16 -sn=1
+undo
+select figure at 373 1160 8 -branches -sn=1
+select figure at 473 1157 8 -branches -sn=1
+delete selection -sn=1
+undo
+select figure at 468 1147 8 -branches -sn=1
+delete selection -sn=1
+undo
+select figure at 347 1279 8 -branches -sn=1
+add autowire 368 1152 256 1152 8 -sn=1
+select figure at 349 1227 8 -branches -sn=1
+select figure at 396 1073 8 -branches -sn=1
+add autowire 352 1216 224 1216 8 -sn=1
+select figure at 669 1586 8 -branches -sn=1
+add autowire 672 1584 224 1584 8 -sn=1
+undo
+undo
+select figure at 211 1443 8 -branches -sn=1
+select figure at 233 1450 8 -branches -sn=1
+select figure at 218 1446 8 -branches -sn=1
+select figure at 225 1446 8 -branches -all -sn=1
+select figure at 2 1061 8 -branches -sn=1
+add autowire 672 1584 208 1584 8 -sn=1
+add iomarker 208 1584 0 Unknown Unknown -sn=1
+select figure at 135 1590 8 -branches -sn=1
+set attr NA|XLXN_20|Name value C -sn=1
+set attr NA|C|PortPolarity value Input -sn=1
+add iomarker 224 1216 0 Unknown Unknown -sn=1
+add iomarker 256 1152 0 Unknown Unknown -sn=1
+select figure at 175 1220 8 -branches -sn=1
+set attr NA|XLXN_18|Name value B -sn=1
+set attr NA|B|Name value XLXN_18 -sn=1
+set attr NA|XLXN_18|Name value B -sn=1
+select figure at 192 1149 8 -branches -sn=1
+set attr NA|XLXN_16|Name value A -sn=1
+BeginGroup
+add wire 1120 1584 1152 1584 -sn=1
+add iomarker 1152 1584 0 Output Unknown -sn=1
+EndGroup
+BeginGroup
+add wire 1088 1952 1120 1952 -sn=1
+add iomarker 1120 1952 0 Output Unknown -sn=1
+EndGroup
+select figure at 1275 1591 8 -branches -sn=1
+set attr NA|XLXN_21|Name value SUM -sn=1
+set attr NA|SUM|Name value CARRY -sn=1
+set attr NA|CARRY|Name value SUM -sn=1
+set attr NA|SUM|Name value CARRY -sn=1
+set attr NA|CARRY|Name value SUM -sn=1
+select figure at 1151 1958 8 -branches -sn=1
+set attr NA|XLXN_22|Name value CARRY -sn=1
+select figure at 221 1146 8 -branches -sn=1
+set attr NA|A|Name value a -sn=1
+move iomarker at 256 1152 to 304 2256 R180 -keepConn -sn=1
+undo
+select figure at 202 1213 8 -branches -sn=1
+set attr NA|B|Name value b -sn=1
+select figure at 171 1590 8 -branches -sn=1
+set attr NA|C|Name value cin -sn=1
+select figure at 1208 1583 8 -branches -sn=1
+select figure at 1165 1566 8 -branches -sn=1
+select figure at 1170 1583 8 -branches -sn=1
+set attr NA|SUM|Name value sum -sn=1
+select figure at 1168 1939 8 -branches -sn=1
+select figure at 1178 1946 8 -branches -sn=1
+select figure at 1180 1946 8 -branches -sn=1
+delete selection -sn=1
+select figure at 1172 1953 8 -branches -sn=1
+select figure at 1211 1961 8 -branches -sn=1
+select figure at 1204 1961 8 -branches -all -sn=1
+undo
+undo
+select figure at 1310 1953 8 -branches -sn=1
+undo
+undo
+undo
+set attr NA|CARRY|Name value cout -sn=1

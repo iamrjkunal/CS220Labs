@@ -1,0 +1,26 @@
+#-----------------------------------------------------------
+# PlanAhead v14.7 (64-bit)
+# Build 321239 by xbuild on Fri Sep 27 19:24:36 MDT 2013
+# Start of session at: Wed Jan 31 15:52:49 2018
+# Process ID: 24185
+# Log file: /users/btech/rajkush/Desktop/CS220Labs/Lab1_3/tb_adder/planAhead_run_2/planAhead.log
+# Journal file: /users/btech/rajkush/Desktop/CS220Labs/Lab1_3/tb_adder/planAhead_run_2/planAhead.jou
+#-----------------------------------------------------------
+start_gui
+source /users/btech/rajkush/Desktop/CS220Labs/Lab1_3/tb_adder/pa.fromHdl.tcl
+update_compile_order -fileset sim_1
+startgroup
+set_property package_pin E11 [get_ports carry]
+endgroup
+set_property is_loc_fixed false [get_ports [list  carry]]
+set_property is_loc_fixed true [get_ports [list  carry]]
+save_constraints
+set_property pulltype PULLUP [get_ports [list {x[1]} {x[0]}]]
+set_property pulltype PULLUP [get_ports [list {y[1]} {y[0]}]]
+set_property iostandard LVTTL [get_ports [list {x[1]} {x[0]}]]
+set_property iostandard LVTTL [get_ports [list {y[1]} {y[0]}]]
+set_property iostandard LVTTL [get_ports [list {z[1]} {z[0]}]]
+set_property iostandard LVTTL [get_ports [list carry]]
+set_property drive 8 [get_ports [list {z[1]} {z[0]}]]
+set_property drive 8 [get_ports [list carry]]
+save_constraints

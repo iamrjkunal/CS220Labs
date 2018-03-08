@@ -1,0 +1,2 @@
+verilog isim_temp "Seven_bit_adder_subtractor.v"
+verilog isim_temp "/opt/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v"

@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=/media/akashish/UBUNTU 17_1/CS220LAB4/rot_shaft/square_grid/sq_grid/square_grid.ncd
+OUTFILE=/media/akashish/UBUNTU 17_1/CS220LAB4/rot_shaft/square_grid/sq_grid/square_grid.bit
+FAMILY=Spartan3E
+PART=xc3s500e-4fg320
+WORKINGDIR=/media/akashish/UBUNTU 17_1/CS220LAB4/rot_shaft/square_grid/sq_grid
+LICENSE=WebPack
+USER_INFO=211450758_0_0_676

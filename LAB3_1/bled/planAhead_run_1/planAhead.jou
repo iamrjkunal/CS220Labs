@@ -1,0 +1,23 @@
+#-----------------------------------------------------------
+# PlanAhead v14.7 (64-bit)
+# Build 321239 by xbuild on Fri Sep 27 19:24:36 MDT 2013
+# Start of session at: Wed Feb 14 15:19:31 2018
+# Process ID: 3629
+# Log file: /users/btech/rajkush/Desktop/CS220Labs/LAB3_1/bled/planAhead_run_1/planAhead.log
+# Journal file: /users/btech/rajkush/Desktop/CS220Labs/LAB3_1/bled/planAhead_run_1/planAhead.jou
+#-----------------------------------------------------------
+start_gui
+source /users/btech/rajkush/Desktop/CS220Labs/LAB3_1/bled/pa.fromHdl.tcl
+update_compile_order -fileset sim_1
+startgroup
+set_property package_pin C9 [get_ports clk]
+endgroup
+set_property iostandard LVCMOS33 [get_ports [list clk]]
+set_property drive 8 [get_ports [list led]]
+set_property pulltype PULLUP [get_ports [list clk]]
+set_property pulltype NONE [get_ports [list clk]]
+set_property iostandard LVTTL [get_ports [list led]]
+startgroup
+set_property package_pin F12 [get_ports led]
+endgroup
+save_constraints

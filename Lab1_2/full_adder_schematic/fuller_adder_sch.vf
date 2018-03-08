@@ -1,0 +1,59 @@
+////////////////////////////////////////////////////////////////////////////////
+// Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+////////////////////////////////////////////////////////////////////////////////
+//   ____  ____ 
+//  /   /\/   / 
+// /___/  \  /    Vendor: Xilinx 
+// \   \   \/     Version : 14.7
+//  \   \         Application : sch2hdl
+//  /   /         Filename : fuller_adder_sch.vf
+// /___/   /\     Timestamp : 01/17/2018 16:56:12
+// \   \  /  \ 
+//  \___\/\___\ 
+//
+//Command: sch2hdl -intstyle ise -family spartan3e -verilog /users/btech/rajkush/Desktop/CS220Labs/Lab1_2/full_adder_schematic/fuller_adder_sch.vf -w /users/btech/rajkush/Desktop/CS220Labs/Lab1_2/full_adder_schematic/fuller_adder_sch.sch
+//Design Name: fuller_adder_sch
+//Device: spartan3e
+//Purpose:
+//    This verilog netlist is translated from an ECS schematic.It can be 
+//    synthesized and simulated, but it should not be modified. 
+//
+`timescale 1ns / 1ps
+
+module fuller_adder_sch(a, 
+                        b, 
+                        cin, 
+                        cout, 
+                        sum);
+
+    input a;
+    input b;
+    input cin;
+   output cout;
+   output sum;
+   
+   wire XLXN_11;
+   wire XLXN_12;
+   wire XLXN_17;
+   wire XLXN_24;
+   
+   myxor  XLXI_5 (.x(XLXN_24), 
+                 .y(cin), 
+                 .z(sum));
+   myxor  XLXI_6 (.x(a), 
+                 .y(b), 
+                 .z(XLXN_24));
+   AND2  XLXI_7 (.I0(cin), 
+                .I1(a), 
+                .O(XLXN_11));
+   AND2  XLXI_8 (.I0(cin), 
+                .I1(b), 
+                .O(XLXN_12));
+   AND2  XLXI_9 (.I0(b), 
+                .I1(a), 
+                .O(XLXN_17));
+   OR3  XLXI_10 (.I0(XLXN_17), 
+                .I1(XLXN_12), 
+                .I2(XLXN_11), 
+                .O(cout));
+endmodule

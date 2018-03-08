@@ -1,0 +1,49 @@
+    ____  ____
+   /   /\/   /
+  /___/  \  /    VENDOR      : Xilinx Inc.
+  \   \   \/     VERSION     : 14.7 (P.20131013)
+   \   \         APPLICATION : /opt/Xilinx/14.7/ISE_DS/ISE/bin/lin64/unwrapped/compxlib
+   /   /         CONTENTS    : Compilation Log
+  /___/   /\     FILENAME    : compxlib.log
+  \   \  /  \    
+   \___\/\___\
+
+Release 14.7 - /opt/Xilinx/14.7/ISE_DS/ISE/bin/lin64/unwrapped/compxlib 14.7 (lin64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+Processing command line ...
+Library Source Paths => '/opt/Xilinx/14.7/ISE_DS/ISE'
+Current Working Directory => '/users/btech/rajkush/Desktop/CS220Labs/Lab1_2/full_adder_schematic'
+Compilation Mode = FAST
+Execute Mode = ON
+Scheduling library installation & compilation for architectures: spartan3e
+
+Scheduling library installation & compilation for libraries: simprim unisim xilinxcorelib edk
+
+Signature:-
+------------------------------------------------------------------------------
+/opt/Xilinx/14.7/ISE_DS/ISE/bin/lin64/unwrapped/compxlib -s mti_se -l verilog -arch spartan3e -lib unisim -lib simprim -lib xilinxcorelib -lib edk -exclude_superseded -intstyle ise 
+------------------------------------------------------------------------------
+ERROR:Compxlib - COMPXLIB[sim]: Unable to automatically find executables for simulator 'mti_se' from the following paths:
+    /opt/Xilinx/14.7/ISE_DS/ISE//bin/lin64
+   /opt/Xilinx/14.7/ISE_DS/ISE/bin/lin64
+   /opt/Xilinx/14.7/ISE_DS/ISE/sysgen/util
+   /opt/Xilinx/14.7/ISE_DS/ISE/../../../DocNav
+   /opt/Xilinx/14.7/ISE_DS/PlanAhead/bin
+   /opt/Xilinx/14.7/ISE_DS/EDK/bin/lin64
+   /opt/Xilinx/14.7/ISE_DS/EDK/gnu/microblaze/lin/bin
+   /opt/Xilinx/14.7/ISE_DS/EDK/gnu/powerpc-eabi/lin/bin
+   /opt/Xilinx/14.7/ISE_DS/EDK/gnu/arm/lin/bin
+   /opt/Xilinx/14.7/ISE_DS/EDK/gnu/microblaze/linux_toolchain/lin64_be/bin
+   /opt/Xilinx/14.7/ISE_DS/EDK/gnu/microblaze/linux_toolchain/lin64_le/bin
+   /opt/Xilinx/14.7/ISE_DS/common/bin/lin64
+   /usr/local/sbin
+   /usr/local/bin
+   /usr/sbin
+   /usr/bin
+   /sbin
+   /bin
+   /usr/games
+   /usr/local/games
+   /opt/puppetlabs/bin.
+Simulator 'mti_se' is ignored.

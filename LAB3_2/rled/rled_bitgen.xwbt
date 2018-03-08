@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=/users/btech/rajkush/Desktop/CS220Labs/LAB3_2/rled/rled.ncd
+OUTFILE=/users/btech/rajkush/Desktop/CS220Labs/LAB3_2/rled/rled.bit
+FAMILY=Spartan3E
+PART=xc3s500e-4fg320
+WORKINGDIR=/users/btech/rajkush/Desktop/CS220Labs/LAB3_2/rled
+LICENSE=WebPack
+USER_INFO=211450758_0_0_676

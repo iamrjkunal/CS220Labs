@@ -1,0 +1,11 @@
+#-----------------------------------------------------------
+# PlanAhead v14.7 (64-bit)
+# Build 321239 by xbuild on Fri Sep 27 19:24:36 MDT 2013
+# Start of session at: Wed Feb 14 15:04:14 2018
+# Process ID: 3161
+# Log file: /users/btech/rajkush/Desktop/CS220Labs/LAB2_3/five_four_bit_adder/planAhead_run_2/planAhead.log
+# Journal file: /users/btech/rajkush/Desktop/CS220Labs/LAB2_3/five_four_bit_adder/planAhead_run_2/planAhead.jou
+#-----------------------------------------------------------
+start_gui
+source /users/btech/rajkush/Desktop/CS220Labs/LAB2_3/five_four_bit_adder/pa.fromHdl.tcl
+update_compile_order -fileset sim_1

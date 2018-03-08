@@ -1,0 +1,5 @@
+MO five_adder NULL five_four_bit_adder.v vlg51/five__adder.bin 1518600362
+MO six_adder NULL five_four_bit_adder.v vlg3F/six__adder.bin 1518600362
+MO full_adder NULL five_four_bit_adder.v vlg5A/full__adder.bin 1518600361
+MO four_adder NULL five_four_bit_adder.v vlg5F/four__adder.bin 1518600361
+MO five_four_bit_adder NULL five_four_bit_adder.v vlg56/five__four__bit__adder.bin 1518600362

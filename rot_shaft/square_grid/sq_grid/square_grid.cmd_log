@@ -1,0 +1,38 @@
+xst -intstyle ise -ifn "/media/akashish/UBUNTU 17_1/CS220LAB4/rot_shaft/square_grid/sq_grid/square_grid.xst" -ofn "/media/akashish/UBUNTU 17_1/CS220LAB4/rot_shaft/square_grid/sq_grid/square_grid.syr" 
+xst -intstyle ise -ifn "/media/akashish/UBUNTU 17_1/CS220LAB4/rot_shaft/square_grid/sq_grid/square_grid.xst" -ofn "/media/akashish/UBUNTU 17_1/CS220LAB4/rot_shaft/square_grid/sq_grid/square_grid.syr" 
+xst -intstyle ise -ifn "/media/akashish/UBUNTU 17_1/CS220LAB4/rot_shaft/square_grid/sq_grid/square_grid.xst" -ofn "/media/akashish/UBUNTU 17_1/CS220LAB4/rot_shaft/square_grid/sq_grid/square_grid.syr" 
+xst -intstyle ise -ifn "/media/akashish/UBUNTU 17_1/CS220LAB4/rot_shaft/square_grid/sq_grid/square_grid.xst" -ofn "/media/akashish/UBUNTU 17_1/CS220LAB4/rot_shaft/square_grid/sq_grid/square_grid.syr" 
+xst -intstyle ise -ifn "/media/akashish/UBUNTU 17_1/CS220LAB4/rot_shaft/square_grid/sq_grid/square_grid.xst" -ofn "/media/akashish/UBUNTU 17_1/CS220LAB4/rot_shaft/square_grid/sq_grid/square_grid.syr" 
+xst -intstyle ise -ifn "/media/akashish/UBUNTU 17_1/CS220LAB4/rot_shaft/square_grid/sq_grid/square_grid.xst" -ofn "/media/akashish/UBUNTU 17_1/CS220LAB4/rot_shaft/square_grid/sq_grid/square_grid.syr" 
+xst -intstyle ise -ifn "/media/akashish/UBUNTU 17_1/CS220LAB4/rot_shaft/square_grid/sq_grid/square_grid.xst" -ofn "/media/akashish/UBUNTU 17_1/CS220LAB4/rot_shaft/square_grid/sq_grid/square_grid.syr" 
+xst -intstyle ise -ifn "/media/akashish/UBUNTU 17_1/CS220LAB4/rot_shaft/square_grid/sq_grid/square_grid.xst" -ofn "/media/akashish/UBUNTU 17_1/CS220LAB4/rot_shaft/square_grid/sq_grid/square_grid.syr" 
+xst -intstyle ise -ifn "/media/akashish/UBUNTU 17_1/CS220LAB4/rot_shaft/square_grid/sq_grid/square_grid.xst" -ofn "/media/akashish/UBUNTU 17_1/CS220LAB4/rot_shaft/square_grid/sq_grid/square_grid.syr" 
+xst -intstyle ise -ifn "/media/akashish/UBUNTU 17_1/CS220LAB4/rot_shaft/square_grid/sq_grid/square_grid.xst" -ofn "/media/akashish/UBUNTU 17_1/CS220LAB4/rot_shaft/square_grid/sq_grid/square_grid.syr" 
+xst -intstyle ise -ifn "/media/akashish/UBUNTU 17_1/CS220LAB4/rot_shaft/square_grid/sq_grid/square_grid.xst" -ofn "/media/akashish/UBUNTU 17_1/CS220LAB4/rot_shaft/square_grid/sq_grid/square_grid.syr" 
+xst -intstyle ise -ifn "/media/akashish/UBUNTU 17_1/CS220LAB4/rot_shaft/square_grid/sq_grid/square_grid.xst" -ofn "/media/akashish/UBUNTU 17_1/CS220LAB4/rot_shaft/square_grid/sq_grid/square_grid.syr" 
+xst -intstyle ise -ifn "/media/akashish/UBUNTU 17_1/CS220LAB4/rot_shaft/square_grid/sq_grid/square_grid.xst" -ofn "/media/akashish/UBUNTU 17_1/CS220LAB4/rot_shaft/square_grid/sq_grid/square_grid.syr" 
+xst -intstyle ise -ifn "/media/akashish/UBUNTU 17_1/CS220LAB4/rot_shaft/square_grid/sq_grid/square_grid.xst" -ofn "/media/akashish/UBUNTU 17_1/CS220LAB4/rot_shaft/square_grid/sq_grid/square_grid.syr" 
+xst -intstyle ise -ifn "/media/akashish/UBUNTU 17_1/CS220LAB4/rot_shaft/square_grid/sq_grid/square_grid.xst" -ofn "/media/akashish/UBUNTU 17_1/CS220LAB4/rot_shaft/square_grid/sq_grid/square_grid.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc square_grid.ucf -p xc3s500e-fg320-4 "square_grid.ngc" square_grid.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o square_grid_map.ncd square_grid.ngd square_grid.pcf 
+par -w -intstyle ise -ol high -t 1 square_grid_map.ncd square_grid.ncd square_grid.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml square_grid.twx square_grid.ncd -o square_grid.twr square_grid.pcf -ucf square_grid.ucf 
+xst -intstyle ise -ifn "/media/akashish/UBUNTU 17_1/CS220LAB4/rot_shaft/square_grid/sq_grid/square_grid.xst" -ofn "/media/akashish/UBUNTU 17_1/CS220LAB4/rot_shaft/square_grid/sq_grid/square_grid.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc square_grid.ucf -p xc3s500e-fg320-4 "square_grid.ngc" square_grid.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o square_grid_map.ncd square_grid.ngd square_grid.pcf 
+par -w -intstyle ise -ol high -t 1 square_grid_map.ncd square_grid.ncd square_grid.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml square_grid.twx square_grid.ncd -o square_grid.twr square_grid.pcf -ucf square_grid.ucf 
+bitgen -intstyle ise -f square_grid.ut square_grid.ncd 
+xst -intstyle ise -ifn "/media/akashish/UBUNTU 17_1/CS220LAB4/rot_shaft/square_grid/sq_grid/square_grid.xst" -ofn "/media/akashish/UBUNTU 17_1/CS220LAB4/rot_shaft/square_grid/sq_grid/square_grid.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc square_grid.ucf -p xc3s500e-fg320-4 "square_grid.ngc" square_grid.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o square_grid_map.ncd square_grid.ngd square_grid.pcf 
+par -w -intstyle ise -ol high -t 1 square_grid_map.ncd square_grid.ncd square_grid.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml square_grid.twx square_grid.ncd -o square_grid.twr square_grid.pcf -ucf square_grid.ucf 
+bitgen -intstyle ise -f square_grid.ut square_grid.ncd 
+xst -intstyle ise -ifn "/media/akashish/UBUNTU 17_1/CS220LAB4/rot_shaft/square_grid/sq_grid/square_grid.xst" -ofn "/media/akashish/UBUNTU 17_1/CS220LAB4/rot_shaft/square_grid/sq_grid/square_grid.syr" 
+xst -intstyle ise -ifn "/media/akashish/UBUNTU 17_1/CS220LAB4/rot_shaft/square_grid/sq_grid/square_grid.xst" -ofn "/media/akashish/UBUNTU 17_1/CS220LAB4/rot_shaft/square_grid/sq_grid/square_grid.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc square_grid.ucf -p xc3s500e-fg320-4 "square_grid.ngc" square_grid.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o square_grid_map.ncd square_grid.ngd square_grid.pcf 
+par -w -intstyle ise -ol high -t 1 square_grid_map.ncd square_grid.ncd square_grid.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml square_grid.twx square_grid.ncd -o square_grid.twr square_grid.pcf -ucf square_grid.ucf 
+bitgen -intstyle ise -f square_grid.ut square_grid.ncd 

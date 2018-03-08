@@ -1,0 +1,44 @@
+xst -intstyle ise -ifn "/media/akashish/UBUNTU 17_1/CS220LAB4/rot_shaft/7addsub/seven_add_sub/seven_add_sub.xst" -ofn "/media/akashish/UBUNTU 17_1/CS220LAB4/rot_shaft/7addsub/seven_add_sub/seven_add_sub.syr" 
+xst -intstyle ise -ifn "/media/akashish/UBUNTU 17_1/CS220LAB4/rot_shaft/7addsub/seven_add_sub/seven_add_sub.xst" -ofn "/media/akashish/UBUNTU 17_1/CS220LAB4/rot_shaft/7addsub/seven_add_sub/seven_add_sub.syr" 
+xst -intstyle ise -ifn "/media/akashish/UBUNTU 17_1/CS220LAB4/rot_shaft/7addsub/seven_add_sub/seven_add_sub.xst" -ofn "/media/akashish/UBUNTU 17_1/CS220LAB4/rot_shaft/7addsub/seven_add_sub/seven_add_sub.syr" 
+xst -intstyle ise -ifn "/media/akashish/UBUNTU 17_1/CS220LAB4/rot_shaft/7addsub/seven_add_sub/seven_add_sub.xst" -ofn "/media/akashish/UBUNTU 17_1/CS220LAB4/rot_shaft/7addsub/seven_add_sub/seven_add_sub.syr" 
+xst -intstyle ise -ifn "/media/akashish/UBUNTU 17_1/CS220LAB4/rot_shaft/7addsub/seven_add_sub/seven_add_sub.xst" -ofn "/media/akashish/UBUNTU 17_1/CS220LAB4/rot_shaft/7addsub/seven_add_sub/seven_add_sub.syr" 
+xst -intstyle ise -ifn "/media/akashish/UBUNTU 17_1/CS220LAB4/rot_shaft/7addsub/seven_add_sub/seven_add_sub.xst" -ofn "/media/akashish/UBUNTU 17_1/CS220LAB4/rot_shaft/7addsub/seven_add_sub/seven_add_sub.syr" 
+xst -intstyle ise -ifn "/media/akashish/UBUNTU 17_1/CS220LAB4/rot_shaft/7addsub/seven_add_sub/seven_add_sub.xst" -ofn "/media/akashish/UBUNTU 17_1/CS220LAB4/rot_shaft/7addsub/seven_add_sub/seven_add_sub.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc seven_add_sub.ucf -p xc3s500e-fg320-4 "seven_add_sub.ngc" seven_add_sub.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o seven_add_sub_map.ncd seven_add_sub.ngd seven_add_sub.pcf 
+par -w -intstyle ise -ol high -t 1 seven_add_sub_map.ncd seven_add_sub.ncd seven_add_sub.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml seven_add_sub.twx seven_add_sub.ncd -o seven_add_sub.twr seven_add_sub.pcf -ucf seven_add_sub.ucf 
+bitgen -intstyle ise -f seven_add_sub.ut seven_add_sub.ncd 
+xst -intstyle ise -ifn "/media/akashish/UBUNTU 17_1/CS220LAB4/rot_shaft/7addsub/seven_add_sub/seven_add_sub.xst" -ofn "/media/akashish/UBUNTU 17_1/CS220LAB4/rot_shaft/7addsub/seven_add_sub/seven_add_sub.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc seven_add_sub.ucf -p xc3s500e-fg320-4 "seven_add_sub.ngc" seven_add_sub.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o seven_add_sub_map.ncd seven_add_sub.ngd seven_add_sub.pcf 
+par -w -intstyle ise -ol high -t 1 seven_add_sub_map.ncd seven_add_sub.ncd seven_add_sub.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml seven_add_sub.twx seven_add_sub.ncd -o seven_add_sub.twr seven_add_sub.pcf -ucf seven_add_sub.ucf 
+bitgen -intstyle ise -f seven_add_sub.ut seven_add_sub.ncd 
+xst -intstyle ise -ifn "/media/akashish/UBUNTU 17_1/CS220LAB4/rot_shaft/7addsub/seven_add_sub/seven_add_sub.xst" -ofn "/media/akashish/UBUNTU 17_1/CS220LAB4/rot_shaft/7addsub/seven_add_sub/seven_add_sub.syr" 
+xst -intstyle ise -ifn "/media/akashish/UBUNTU 17_1/CS220LAB4/rot_shaft/7addsub/seven_add_sub/seven_add_sub.xst" -ofn "/media/akashish/UBUNTU 17_1/CS220LAB4/rot_shaft/7addsub/seven_add_sub/seven_add_sub.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc seven_add_sub.ucf -p xc3s500e-fg320-4 "seven_add_sub.ngc" seven_add_sub.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o seven_add_sub_map.ncd seven_add_sub.ngd seven_add_sub.pcf 
+par -w -intstyle ise -ol high -t 1 seven_add_sub_map.ncd seven_add_sub.ncd seven_add_sub.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml seven_add_sub.twx seven_add_sub.ncd -o seven_add_sub.twr seven_add_sub.pcf -ucf seven_add_sub.ucf 
+xst -intstyle ise -ifn "/users/btech/rajkush/Desktop/CS220Labs/rot_shaft/7addsub/seven_add_sub/seven_add_sub.xst" -ofn "/users/btech/rajkush/Desktop/CS220Labs/rot_shaft/7addsub/seven_add_sub/seven_add_sub.syr" 
+xst -intstyle ise -ifn "/users/btech/rajkush/Desktop/CS220Labs/rot_shaft/7addsub/seven_add_sub/seven_add_sub.xst" -ofn "/users/btech/rajkush/Desktop/CS220Labs/rot_shaft/7addsub/seven_add_sub/seven_add_sub.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc seven_add_sub.ucf -p xc3s500e-fg320-4 seven_add_sub.ngc seven_add_sub.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o seven_add_sub_map.ncd seven_add_sub.ngd seven_add_sub.pcf 
+par -w -intstyle ise -ol high -t 1 seven_add_sub_map.ncd seven_add_sub.ncd seven_add_sub.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml seven_add_sub.twx seven_add_sub.ncd -o seven_add_sub.twr seven_add_sub.pcf -ucf seven_add_sub.ucf 
+xst -intstyle ise -ifn "/users/btech/rajkush/Desktop/CS220Labs/rot_shaft/7addsub/seven_add_sub/seven_add_sub.xst" -ofn "/users/btech/rajkush/Desktop/CS220Labs/rot_shaft/7addsub/seven_add_sub/seven_add_sub.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc seven_add_sub.ucf -p xc3s500e-fg320-4 seven_add_sub.ngc seven_add_sub.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o seven_add_sub_map.ncd seven_add_sub.ngd seven_add_sub.pcf 
+par -w -intstyle ise -ol high -t 1 seven_add_sub_map.ncd seven_add_sub.ncd seven_add_sub.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml seven_add_sub.twx seven_add_sub.ncd -o seven_add_sub.twr seven_add_sub.pcf -ucf seven_add_sub.ucf 
+bitgen -intstyle ise -f seven_add_sub.ut seven_add_sub.ncd 
+xst -intstyle ise -ifn "/users/btech/rajkush/Desktop/CS220Labs/rot_shaft/7addsub/seven_add_sub/seven_add_sub.xst" -ofn "/users/btech/rajkush/Desktop/CS220Labs/rot_shaft/7addsub/seven_add_sub/seven_add_sub.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc seven_add_sub.ucf -p xc3s500e-fg320-4 seven_add_sub.ngc seven_add_sub.ngd  
+xst -intstyle ise -ifn "/users/btech/rajkush/Desktop/CS220Labs/rot_shaft/7addsub/seven_add_sub/seven_add_sub.xst" -ofn "/users/btech/rajkush/Desktop/CS220Labs/rot_shaft/7addsub/seven_add_sub/seven_add_sub.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc seven_add_sub.ucf -p xc3s500e-fg320-4 seven_add_sub.ngc seven_add_sub.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o seven_add_sub_map.ncd seven_add_sub.ngd seven_add_sub.pcf 
+par -w -intstyle ise -ol high -t 1 seven_add_sub_map.ncd seven_add_sub.ncd seven_add_sub.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml seven_add_sub.twx seven_add_sub.ncd -o seven_add_sub.twr seven_add_sub.pcf -ucf seven_add_sub.ucf 
+bitgen -intstyle ise -f seven_add_sub.ut seven_add_sub.ncd 

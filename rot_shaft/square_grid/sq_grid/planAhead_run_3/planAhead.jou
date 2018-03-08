@@ -1,0 +1,18 @@
+#-----------------------------------------------------------
+# PlanAhead v14.7 (64-bit)
+# Build 321239 by xbuild on Fri Sep 27 19:24:36 MDT 2013
+# Start of session at: Wed Mar  7 14:34:54 2018
+# Process ID: 25078
+# Log file: /media/akashish/UBUNTU 17_1/CS220LAB4/rot_shaft/square_grid/sq_grid/planAhead_run_3/planAhead.log
+# Journal file: /media/akashish/UBUNTU 17_1/CS220LAB4/rot_shaft/square_grid/sq_grid/planAhead_run_3/planAhead.jou
+#-----------------------------------------------------------
+start_gui
+source {/media/akashish/UBUNTU 17_1/CS220LAB4/rot_shaft/square_grid/sq_grid/pa.fromHdl.tcl}
+update_compile_order -fileset sim_1
+startgroup
+set_property package_pin C9 [get_ports clk]
+endgroup
+set_property is_loc_fixed false [get_ports [list  clk]]
+set_property is_loc_fixed true [get_ports [list  clk]]
+set_property iostandard LVCMOS33 [get_ports [list clk]]
+save_constraints

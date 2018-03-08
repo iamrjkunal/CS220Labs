@@ -1,0 +1,8 @@
+Running: /opt/Xilinx/14.7/ISE_DS/ISE/bin/lin64/unwrapped/fuse -intstyle ise -incremental -lib unisims_ver -lib unimacro_ver -lib xilinxcorelib_ver -o /users/btech/rajkush/Desktop/CS220Labs/LAB2_2/COM/COM_isim_beh.exe -prj /users/btech/rajkush/Desktop/CS220Labs/LAB2_2/COM/COM_beh.prj work.COM work.glbl 
+ISim P.20131013 (signature 0xfbc00daa)
+Number of CPUs detected in this system: 4
+Turning on mult-threading, number of parallel sub-compilation jobs: 8 
+Determining compilation order of HDL files
+Analyzing Verilog file "/users/btech/rajkush/Desktop/CS220Labs/LAB2_2/COM/COM.v" into library work
+ERROR:HDLCompiler:806 - "/users/btech/rajkush/Desktop/CS220Labs/LAB2_2/COM/COM.v" Line 43: Syntax error near "/".
+Verilog file /users/btech/rajkush/Desktop/CS220Labs/LAB2_2/COM/COM.v ignored due to errors

@@ -1,0 +1,8 @@
+INTSTYLE=impact
+INFILE=/users/btech/rajkush/Desktop/CS220Labs/Lab1_1/full_adder/impact.xsl
+OUTFILE=/users/btech/rajkush/Desktop/CS220Labs/Lab1_1/full_adder/impact.xsl
+FAMILY=Multiple
+PART=Multiple
+WORKINGDIR=/users/btech/rajkush/Desktop/CS220Labs/Lab1_1/full_adder
+LICENSE=iMPACT
+USER_INFO=iMPACT

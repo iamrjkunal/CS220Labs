@@ -1,0 +1,44 @@
+xst -intstyle ise -ifn "/users/btech/rajkush/Desktop/CS220Labs/LAB2_1/seven_adder/seven_adder.xst" -ofn "/users/btech/rajkush/Desktop/CS220Labs/LAB2_1/seven_adder/seven_adder.syr" 
+xst -intstyle ise -ifn "/users/btech/rajkush/Desktop/CS220Labs/LAB2_1/seven_adder/seven_adder.xst" -ofn "/users/btech/rajkush/Desktop/CS220Labs/LAB2_1/seven_adder/seven_adder.syr" 
+xst -intstyle ise -ifn "/users/btech/rajkush/Desktop/CS220Labs/LAB2_1/seven_adder/seven_adder.xst" -ofn "/users/btech/rajkush/Desktop/CS220Labs/LAB2_1/seven_adder/seven_adder.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc seven_adder.ucf -p xc3s500e-fg320-4 seven_adder.ngc seven_adder.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o seven_adder_map.ncd seven_adder.ngd seven_adder.pcf 
+par -w -intstyle ise -ol high -t 1 seven_adder_map.ncd seven_adder.ncd seven_adder.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml seven_adder.twx seven_adder.ncd -o seven_adder.twr seven_adder.pcf -ucf seven_adder.ucf 
+par -w -intstyle ise -ol high -t 1 seven_adder_map.ncd seven_adder.ncd seven_adder.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml seven_adder.twx seven_adder.ncd -o seven_adder.twr seven_adder.pcf -ucf seven_adder.ucf 
+xst -intstyle ise -ifn "/users/btech/rajkush/Desktop/CS220Labs/LAB2_1/seven_adder/seven_adder.xst" -ofn "/users/btech/rajkush/Desktop/CS220Labs/LAB2_1/seven_adder/seven_adder.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc seven_adder.ucf -p xc3s500e-fg320-4 seven_adder.ngc seven_adder.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o seven_adder_map.ncd seven_adder.ngd seven_adder.pcf 
+par -w -intstyle ise -ol high -t 1 seven_adder_map.ncd seven_adder.ncd seven_adder.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml seven_adder.twx seven_adder.ncd -o seven_adder.twr seven_adder.pcf -ucf seven_adder.ucf 
+xst -intstyle ise -ifn "/users/btech/rajkush/Desktop/CS220Labs/LAB2_1/seven_adder/seven_adder.xst" -ofn "/users/btech/rajkush/Desktop/CS220Labs/LAB2_1/seven_adder/seven_adder.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc seven_adder.ucf -p xc3s500e-fg320-4 seven_adder.ngc seven_adder.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o seven_adder_map.ncd seven_adder.ngd seven_adder.pcf 
+par -w -intstyle ise -ol high -t 1 seven_adder_map.ncd seven_adder.ncd seven_adder.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml seven_adder.twx seven_adder.ncd -o seven_adder.twr seven_adder.pcf -ucf seven_adder.ucf 
+par -w -intstyle ise -ol high -t 1 seven_adder_map.ncd seven_adder.ncd seven_adder.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml seven_adder.twx seven_adder.ncd -o seven_adder.twr seven_adder.pcf -ucf seven_adder.ucf 
+bitgen -intstyle ise -f seven_adder.ut seven_adder.ncd 
+xst -intstyle ise -ifn "/users/btech/rajkush/Desktop/CS220Labs/LAB2_1/seven_adder/seven_adder.xst" -ofn "/users/btech/rajkush/Desktop/CS220Labs/LAB2_1/seven_adder/seven_adder.syr" 
+vhdtdtfi -lib work /users/btech/rajkush/Desktop/CS220Labs/LAB2_1/seven_adder/seven_adder.v -lang verilog -prj seven_adder -o seven_adder.spl -module seven_adder -template /opt/Xilinx/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e seven_adder.spl /users/btech/rajkush/Desktop/CS220Labs/LAB2_1/seven_adder/seven_adder.sym 
+xst -intstyle ise -ifn "/users/btech/rajkush/Desktop/CS220Labs/LAB2_1/seven_adder/seven_adder.xst" -ofn "/users/btech/rajkush/Desktop/CS220Labs/LAB2_1/seven_adder/seven_adder.syr" 
+xst -intstyle ise -ifn "/users/btech/rajkush/Desktop/CS220Labs/LAB2_1/seven_adder/seven_adder.xst" -ofn "/users/btech/rajkush/Desktop/CS220Labs/LAB2_1/seven_adder/seven_adder.syr" 
+xst -intstyle ise -ifn "/users/btech/rajkush/Desktop/CS220Labs/LAB2_1/seven_adder/seven_adder.xst" -ofn "/users/btech/rajkush/Desktop/CS220Labs/LAB2_1/seven_adder/seven_adder.syr" 
+xst -intstyle ise -ifn "/users/btech/rajkush/Desktop/CS220Labs/LAB2_1/seven_adder/seven_adder.xst" -ofn "/users/btech/rajkush/Desktop/CS220Labs/LAB2_1/seven_adder/seven_adder.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc seven_adder.ucf -p xc3s500e-fg320-4 seven_adder.ngc seven_adder.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o seven_adder_map.ncd seven_adder.ngd seven_adder.pcf 
+par -w -intstyle ise -ol high -t 1 seven_adder_map.ncd seven_adder.ncd seven_adder.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml seven_adder.twx seven_adder.ncd -o seven_adder.twr seven_adder.pcf -ucf seven_adder.ucf 
+xst -intstyle ise -ifn "/users/btech/rajkush/Desktop/CS220Labs/LAB2_1/seven_adder/seven_adder.xst" -ofn "/users/btech/rajkush/Desktop/CS220Labs/LAB2_1/seven_adder/seven_adder.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc seven_adder.ucf -p xc3s500e-fg320-4 seven_adder.ngc seven_adder.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o seven_adder_map.ncd seven_adder.ngd seven_adder.pcf 
+par -w -intstyle ise -ol high -t 1 seven_adder_map.ncd seven_adder.ncd seven_adder.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml seven_adder.twx seven_adder.ncd -o seven_adder.twr seven_adder.pcf -ucf seven_adder.ucf 
+bitgen -intstyle ise -f seven_adder.ut seven_adder.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc seven_adder.ucf -p xc3s500e-fg320-4 seven_adder.ngc seven_adder.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o seven_adder_map.ncd seven_adder.ngd seven_adder.pcf 
+par -w -intstyle ise -ol high -t 1 seven_adder_map.ncd seven_adder.ncd seven_adder.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml seven_adder.twx seven_adder.ncd -o seven_adder.twr seven_adder.pcf -ucf seven_adder.ucf 
+bitgen -intstyle ise -f seven_adder.ut seven_adder.ncd 

@@ -1,0 +1,18 @@
+#-----------------------------------------------------------
+# PlanAhead v14.7 (64-bit)
+# Build 321239 by xbuild on Fri Sep 27 19:24:36 MDT 2013
+# Start of session at: Wed Feb 14 16:05:46 2018
+# Process ID: 19128
+# Log file: /media/akashish/UBUNTU 17_1/CS220LAB4/rot_shaft/7addsub/seven_add_sub/planAhead_run_2/planAhead.log
+# Journal file: /media/akashish/UBUNTU 17_1/CS220LAB4/rot_shaft/7addsub/seven_add_sub/planAhead_run_2/planAhead.jou
+#-----------------------------------------------------------
+start_gui
+source {/media/akashish/UBUNTU 17_1/CS220LAB4/rot_shaft/7addsub/seven_add_sub/pa.fromHdl.tcl}
+update_compile_order -fileset sim_1
+refresh_design
+startgroup
+set_property package_pin V16 [get_ports x]
+endgroup
+set_property iostandard LVTTL [get_ports [list x]]
+set_property pulltype PULLDOWN [get_ports [list x]]
+save_constraints

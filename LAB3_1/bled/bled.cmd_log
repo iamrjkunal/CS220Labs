@@ -1,0 +1,6 @@
+xst -intstyle ise -ifn "/users/btech/rajkush/Desktop/CS220Labs/LAB3_1/bled/bled.xst" -ofn "/users/btech/rajkush/Desktop/CS220Labs/LAB3_1/bled/bled.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc bled.ucf -p xc3s500e-fg320-4 bled.ngc bled.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o bled_map.ncd bled.ngd bled.pcf 
+par -w -intstyle ise -ol high -t 1 bled_map.ncd bled.ncd bled.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml bled.twx bled.ncd -o bled.twr bled.pcf -ucf bled.ucf 
+bitgen -intstyle ise -f bled.ut bled.ncd 

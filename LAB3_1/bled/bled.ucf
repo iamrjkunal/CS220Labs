@@ -1,0 +1,15 @@
+
+# PlanAhead Generated physical constraints 
+
+NET "clk" LOC = C9;
+
+# PlanAhead Generated IO constraints 
+
+NET "clk" IOSTANDARD = LVCMOS33;
+NET "led" DRIVE = 8;
+NET "led" IOSTANDARD = LVTTL;
+
+# PlanAhead Generated physical constraints 
+
+NET "led" LOC = F12;
+NET "clk" PERIOD = 20.0ns HIGH 50%;

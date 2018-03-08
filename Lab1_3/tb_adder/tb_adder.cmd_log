@@ -1,0 +1,20 @@
+xst -intstyle ise -ifn "/users/btech/rajkush/Desktop/CS220Labs/Lab1_3/tb_adder/tb_adder.xst" -ofn "/users/btech/rajkush/Desktop/CS220Labs/Lab1_3/tb_adder/tb_adder.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc tb_adder.ucf -p xc3s500e-fg320-4 tb_adder.ngc tb_adder.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o tb_adder_map.ncd tb_adder.ngd tb_adder.pcf 
+par -w -intstyle ise -ol high -t 1 tb_adder_map.ncd tb_adder.ncd tb_adder.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml tb_adder.twx tb_adder.ncd -o tb_adder.twr tb_adder.pcf -ucf tb_adder.ucf 
+bitgen -intstyle ise -f tb_adder.ut tb_adder.ncd 
+xst -intstyle ise -ifn "/users/btech/rajkush/Desktop/CS220Labs/Lab1_3/tb_adder/tb_adder.xst" -ofn "/users/btech/rajkush/Desktop/CS220Labs/Lab1_3/tb_adder/tb_adder.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc tb_adder.ucf -p xc3s500e-fg320-4 tb_adder.ngc tb_adder.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o tb_adder_map.ncd tb_adder.ngd tb_adder.pcf 
+par -w -intstyle ise -ol high -t 1 tb_adder_map.ncd tb_adder.ncd tb_adder.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml tb_adder.twx tb_adder.ncd -o tb_adder.twr tb_adder.pcf -ucf tb_adder.ucf 
+bitgen -intstyle ise -f tb_adder.ut tb_adder.ncd 
+xst -intstyle ise -ifn "/users/btech/rajkush/Desktop/CS220Labs/Lab1_3/tb_adder/tb_adder.xst" -ofn "/users/btech/rajkush/Desktop/CS220Labs/Lab1_3/tb_adder/tb_adder.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc tb_adder.ucf -p xc3s500e-fg320-4 tb_adder.ngc tb_adder.ngd  
+xst -intstyle ise -ifn "/users/btech/rajkush/Desktop/CS220Labs/Lab1_3/tb_adder/tb_adder.xst" -ofn "/users/btech/rajkush/Desktop/CS220Labs/Lab1_3/tb_adder/tb_adder.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc tb_adder.ucf -p xc3s500e-fg320-4 tb_adder.ngc tb_adder.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o tb_adder_map.ncd tb_adder.ngd tb_adder.pcf 
+par -w -intstyle ise -ol high -t 1 tb_adder_map.ncd tb_adder.ncd tb_adder.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml tb_adder.twx tb_adder.ncd -o tb_adder.twr tb_adder.pcf -ucf tb_adder.ucf 
+bitgen -intstyle ise -f tb_adder.ut tb_adder.ncd 

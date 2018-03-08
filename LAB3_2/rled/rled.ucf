@@ -1,0 +1,39 @@
+
+# PlanAhead Generated physical constraints 
+
+NET "clk" LOC = C9;
+
+# PlanAhead Generated IO constraints 
+
+NET "clk" IOSTANDARD = LVCMOS33;
+NET "l0" IOSTANDARD = LVTTL;
+NET "l1" IOSTANDARD = LVTTL;
+NET "l2" IOSTANDARD = LVTTL;
+NET "l3" IOSTANDARD = LVTTL;
+NET "l4" IOSTANDARD = LVTTL;
+NET "l5" IOSTANDARD = LVTTL;
+NET "l6" IOSTANDARD = LVTTL;
+NET "l7" IOSTANDARD = LVTTL;
+
+# PlanAhead Generated physical constraints 
+
+NET "l0" LOC = F12;
+NET "l1" LOC = E12;
+NET "l2" LOC = E11;
+NET "l4" LOC = C11;
+NET "l3" LOC = F11;
+NET "l5" LOC = D11;
+NET "l6" LOC = E9;
+NET "l7" LOC = F9;
+
+# PlanAhead Generated IO constraints 
+
+NET "l0" DRIVE = 8;
+NET "l1" DRIVE = 8;
+NET "l2" DRIVE = 8;
+NET "l3" DRIVE = 8;
+NET "l4" DRIVE = 8;
+NET "l5" DRIVE = 8;
+NET "l6" DRIVE = 8;
+NET "l7" DRIVE = 8;
+NET "clk" PERIOD = 20.0ns HIGH 50%;

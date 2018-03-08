@@ -1,0 +1,8 @@
+xst -intstyle ise -ifn "/media/akashish/UBUNTU 17_1/CS220LAB4/rot_shaft/rot_shaft/rot_shaft.xst" -ofn "/media/akashish/UBUNTU 17_1/CS220LAB4/rot_shaft/rot_shaft/rot_shaft.syr" 
+xst -intstyle ise -ifn "/media/akashish/UBUNTU 17_1/CS220LAB4/rot_shaft/rot_shaft/rot_shaft.xst" -ofn "/media/akashish/UBUNTU 17_1/CS220LAB4/rot_shaft/rot_shaft/rot_shaft.syr" 
+xst -intstyle ise -ifn "/media/akashish/UBUNTU 17_1/CS220LAB4/rot_shaft/rot_shaft/rot_shaft.xst" -ofn "/media/akashish/UBUNTU 17_1/CS220LAB4/rot_shaft/rot_shaft/rot_shaft.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc rot_shaft.ucf -p xc3s500e-fg320-4 "rot_shaft.ngc" rot_shaft.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o rot_shaft_map.ncd rot_shaft.ngd rot_shaft.pcf 
+par -w -intstyle ise -ol high -t 1 rot_shaft_map.ncd rot_shaft.ncd rot_shaft.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml rot_shaft.twx rot_shaft.ncd -o rot_shaft.twr rot_shaft.pcf -ucf rot_shaft.ucf 
+bitgen -intstyle ise -f rot_shaft.ut rot_shaft.ncd 

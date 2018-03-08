@@ -1,0 +1,10 @@
+#-----------------------------------------------------------
+# PlanAhead v14.7 (64-bit)
+# Build 321239 by xbuild on Fri Sep 27 19:24:36 MDT 2013
+# Start of session at: Wed Feb  7 16:29:46 2018
+# Process ID: 5086
+# Log file: /users/btech/rajkush/Desktop/CS220Labs/LAB2_2/COM/planAhead_run_3/planAhead.log
+# Journal file: /users/btech/rajkush/Desktop/CS220Labs/LAB2_2/COM/planAhead_run_3/planAhead.jou
+#-----------------------------------------------------------
+start_gui
+source /users/btech/rajkush/Desktop/CS220Labs/LAB2_2/COM/pa.fromHdl.tcl
