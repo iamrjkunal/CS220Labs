@@ -1,8 +1,0 @@
-INTSTYLE=impact
-INFILE=/users/btech/rajkush/Desktop/CS220Labs/LAB4_2/Seven_bit_adder_subtractor/impact.xsl
-OUTFILE=/users/btech/rajkush/Desktop/CS220Labs/LAB4_2/Seven_bit_adder_subtractor/impact.xsl
-FAMILY=Multiple
-PART=Multiple
-WORKINGDIR=/users/btech/rajkush/Desktop/CS220Labs/LAB4_2/Seven_bit_adder_subtractor
-LICENSE=iMPACT
-USER_INFO=iMPACT

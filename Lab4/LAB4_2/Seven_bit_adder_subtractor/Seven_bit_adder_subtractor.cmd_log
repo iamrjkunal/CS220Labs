@@ -1,0 +1,14 @@
+xst -intstyle ise -ifn "/users/btech/rajkush/Desktop/CS220Labs/LAB4_2/Seven_bit_adder_subtractor/Seven_bit_adder_subtractor.xst" -ofn "/users/btech/rajkush/Desktop/CS220Labs/LAB4_2/Seven_bit_adder_subtractor/Seven_bit_adder_subtractor.syr" 
+xst -intstyle ise -ifn "/users/btech/rajkush/Desktop/CS220Labs/LAB4_2/Seven_bit_adder_subtractor/Seven_bit_adder_subtractor.xst" -ofn "/users/btech/rajkush/Desktop/CS220Labs/LAB4_2/Seven_bit_adder_subtractor/Seven_bit_adder_subtractor.syr" 
+xst -intstyle ise -ifn "/users/btech/rajkush/Desktop/CS220Labs/LAB4_2/Seven_bit_adder_subtractor/Seven_bit_adder_subtractor.xst" -ofn "/users/btech/rajkush/Desktop/CS220Labs/LAB4_2/Seven_bit_adder_subtractor/Seven_bit_adder_subtractor.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Seven_bit_adder_subtractor.ucf -p xc3s500e-fg320-4 Seven_bit_adder_subtractor.ngc Seven_bit_adder_subtractor.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o Seven_bit_adder_subtractor_map.ncd Seven_bit_adder_subtractor.ngd Seven_bit_adder_subtractor.pcf 
+par -w -intstyle ise -ol high -t 1 Seven_bit_adder_subtractor_map.ncd Seven_bit_adder_subtractor.ncd Seven_bit_adder_subtractor.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Seven_bit_adder_subtractor.twx Seven_bit_adder_subtractor.ncd -o Seven_bit_adder_subtractor.twr Seven_bit_adder_subtractor.pcf -ucf Seven_bit_adder_subtractor.ucf 
+bitgen -intstyle ise -f Seven_bit_adder_subtractor.ut Seven_bit_adder_subtractor.ncd 
+xst -intstyle ise -ifn "/home/rjkunal/Desktop/CS220Labs/LAB4_2/Seven_bit_adder_subtractor/Seven_bit_adder_subtractor.xst" -ofn "/home/rjkunal/Desktop/CS220Labs/LAB4_2/Seven_bit_adder_subtractor/Seven_bit_adder_subtractor.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Seven_bit_adder_subtractor.ucf -p xc3s500e-fg320-4 Seven_bit_adder_subtractor.ngc Seven_bit_adder_subtractor.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o Seven_bit_adder_subtractor_map.ncd Seven_bit_adder_subtractor.ngd Seven_bit_adder_subtractor.pcf 
+par -w -intstyle ise -ol high -t 1 Seven_bit_adder_subtractor_map.ncd Seven_bit_adder_subtractor.ncd Seven_bit_adder_subtractor.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Seven_bit_adder_subtractor.twx Seven_bit_adder_subtractor.ncd -o Seven_bit_adder_subtractor.twr Seven_bit_adder_subtractor.pcf -ucf Seven_bit_adder_subtractor.ucf 
+bitgen -intstyle ise -f Seven_bit_adder_subtractor.ut Seven_bit_adder_subtractor.ncd 
