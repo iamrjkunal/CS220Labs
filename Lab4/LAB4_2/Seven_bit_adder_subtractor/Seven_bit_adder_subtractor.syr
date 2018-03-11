@@ -4,15 +4,15 @@ Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
 Parameter TMPDIR set to xst/projnav.tmp
 
 
-Total REAL time to Xst completion: 1.00 secs
-Total CPU time to Xst completion: 0.05 secs
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.04 secs
  
 --> 
 Parameter xsthdpdir set to xst
 
 
-Total REAL time to Xst completion: 1.00 secs
-Total CPU time to Xst completion: 0.05 secs
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.04 secs
  
 --> 
 Reading design: Seven_bit_adder_subtractor.prj
@@ -160,7 +160,7 @@ Unit <detector> synthesized.
 
 Synthesizing Unit <full_adder>.
     Related source file is "Seven_bit_adder_subtractor.v".
-    Found 1-bit xor3 for signal <s>.
+    Found 1-bit xor3 for signal <sum>.
     Summary:
 	inferred   1 Xor(s).
 Unit <full_adder> synthesized.
@@ -181,8 +181,6 @@ Unit <seven> synthesized.
 
 Synthesizing Unit <Seven_bit_adder_subtractor>.
     Related source file is "Seven_bit_adder_subtractor.v".
-WARNING:Xst:1780 - Signal <st> is never used or assigned. This unconnected signal will be trimmed during the optimization process.
-WARNING:Xst:1780 - Signal <ct> is never used or assigned. This unconnected signal will be trimmed during the optimization process.
     Found finite state machine <FSM_0> for signal <counter>.
     -----------------------------------------------------------------------
     | States             | 5                                              |
@@ -434,15 +432,15 @@ Offset:              13.054ns (Levels of Logic = 8)
 =========================================================================
 
 
-Total REAL time to Xst completion: 8.00 secs
-Total CPU time to Xst completion: 3.52 secs
+Total REAL time to Xst completion: 4.00 secs
+Total CPU time to Xst completion: 3.62 secs
  
 --> 
 
 
-Total memory usage is 512224 kilobytes
+Total memory usage is 512200 kilobytes
 
 Number of errors   :    0 (   0 filtered)
-Number of warnings :    2 (   0 filtered)
+Number of warnings :    0 (   0 filtered)
 Number of infos    :    0 (   0 filtered)
 

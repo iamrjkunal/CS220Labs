@@ -25,7 +25,10 @@ output led;
 reg led;
 reg [26:0]counter;
 
-initial counter=27'b0;
+initial
+	begin
+		counter=27'b0;
+	end
 
 always@(posedge clk) begin
 counter<=counter+1;

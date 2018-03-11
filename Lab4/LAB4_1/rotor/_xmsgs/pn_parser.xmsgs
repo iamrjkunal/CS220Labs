@@ -8,7 +8,7 @@
 <!-- Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.    -->
 
 <messages>
-<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;/users/btech/rajkush/Desktop/CS220Labs/LAB4_1/rotor/rotor.v&quot; into library work</arg>
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;/home/rjkunal/Desktop/CS220Labs/Lab4/LAB4_1/rotor/rotor.v&quot; into library work</arg>
 </msg>
 
 </messages>

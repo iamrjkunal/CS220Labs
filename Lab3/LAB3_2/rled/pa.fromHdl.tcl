@@ -1,7 +1,7 @@
 
 # PlanAhead Launch Script for Pre-Synthesis Floorplanning, created by Project Navigator
 
-create_project -name rled -dir "/users/btech/rajkush/Desktop/CS220Labs/LAB3_2/rled/planAhead_run_1" -part xc3s500efg320-4
+create_project -name rled -dir "/home/rjkunal/Desktop/CS220Labs/Lab3/LAB3_2/rled/planAhead_run_2" -part xc3s500efg320-4
 set_param project.pinAheadLayout yes
 set srcset [get_property srcset [current_run -impl]]
 set_property target_constrs_file "rled.ucf" [current_fileset -constrset]

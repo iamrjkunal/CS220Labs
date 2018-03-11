@@ -52,6 +52,7 @@
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_BITGEN_REPORT" xil_pn:name="full_adder.ut" xil_pn:subbranch="FPGAConfiguration"/>
     <file xil_pn:fileType="FILE_XPI" xil_pn:name="full_adder.xpi"/>
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST" xil_pn:name="full_adder.xst"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="full_adder_envsettings.html"/>
     <file xil_pn:fileType="FILE_NCD" xil_pn:name="full_adder_guide.ncd" xil_pn:origination="imported"/>
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_MAP_REPORT" xil_pn:name="full_adder_map.map" xil_pn:subbranch="Map"/>
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_MAP_REPORT" xil_pn:name="full_adder_map.mrp" xil_pn:subbranch="Map"/>
@@ -175,10 +176,9 @@
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1516183677" xil_pn:in_ck="5339658116182619446" xil_pn:name="TRANEXT_xstsynthesize_spartan3e" xil_pn:prop_ck="4723899733401654712" xil_pn:start_ts="1516183630">
+    <transform xil_pn:end_ts="1520681183" xil_pn:in_ck="5339658116182619446" xil_pn:name="TRANEXT_xstsynthesize_spartan3e" xil_pn:prop_ck="-8519780379066314684" xil_pn:start_ts="1520681175">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
-      <status xil_pn:value="OutOfDateForProperties"/>
       <status xil_pn:value="OutOfDateForOutputs"/>
       <status xil_pn:value="OutputChanged"/>
       <outfile xil_pn:name="_xmsgs/xst.xmsgs"/>
@@ -199,20 +199,18 @@
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1516183731" xil_pn:in_ck="277454623200371702" xil_pn:name="TRANEXT_ngdbuild_FPGA" xil_pn:prop_ck="-6228418591377583884" xil_pn:start_ts="1516183704">
+    <transform xil_pn:end_ts="1520681198" xil_pn:in_ck="277454623200371702" xil_pn:name="TRANEXT_ngdbuild_FPGA" xil_pn:prop_ck="-6228418591377583884" xil_pn:start_ts="1520681192">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
-      <status xil_pn:value="OutOfDateForPredecessor"/>
       <outfile xil_pn:name="_ngo"/>
       <outfile xil_pn:name="_xmsgs/ngdbuild.xmsgs"/>
       <outfile xil_pn:name="full_adder.bld"/>
       <outfile xil_pn:name="full_adder.ngd"/>
       <outfile xil_pn:name="full_adder_ngdbuild.xrpt"/>
     </transform>
-    <transform xil_pn:end_ts="1516183753" xil_pn:in_ck="8828217183464935863" xil_pn:name="TRANEXT_map_spartan3" xil_pn:prop_ck="-5849673150125579957" xil_pn:start_ts="1516183731">
+    <transform xil_pn:end_ts="1520681204" xil_pn:in_ck="8828217183464935863" xil_pn:name="TRANEXT_map_spartan3" xil_pn:prop_ck="-5849673150125579957" xil_pn:start_ts="1520681198">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
-      <status xil_pn:value="OutOfDateForPredecessor"/>
       <status xil_pn:value="OutOfDateForOutputs"/>
       <status xil_pn:value="OutputChanged"/>
       <outfile xil_pn:name="_xmsgs/map.xmsgs"/>
@@ -225,10 +223,9 @@
       <outfile xil_pn:name="full_adder_summary.xml"/>
       <outfile xil_pn:name="full_adder_usage.xml"/>
     </transform>
-    <transform xil_pn:end_ts="1516183811" xil_pn:in_ck="8231944590626511120" xil_pn:name="TRANEXT_par_spartan3" xil_pn:prop_ck="-5563652517805085498" xil_pn:start_ts="1516183753">
+    <transform xil_pn:end_ts="1520681213" xil_pn:in_ck="8231944590626511120" xil_pn:name="TRANEXT_par_spartan3" xil_pn:prop_ck="-5563652517805085498" xil_pn:start_ts="1520681204">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
-      <status xil_pn:value="OutOfDateForPredecessor"/>
       <outfile xil_pn:name="_xmsgs/par.xmsgs"/>
       <outfile xil_pn:name="full_adder.ncd"/>
       <outfile xil_pn:name="full_adder.pad"/>
@@ -240,11 +237,11 @@
       <outfile xil_pn:name="full_adder_pad.txt"/>
       <outfile xil_pn:name="full_adder_par.xrpt"/>
     </transform>
-    <transform xil_pn:end_ts="1516183993" xil_pn:in_ck="4163305304363812309" xil_pn:name="TRANEXT_bitFile_spartan3e" xil_pn:prop_ck="287829442711806529" xil_pn:start_ts="1516183969">
+    <transform xil_pn:end_ts="1520681413" xil_pn:in_ck="4163305304363812309" xil_pn:name="TRANEXT_bitFile_spartan3e" xil_pn:prop_ck="-7817169320884990698" xil_pn:start_ts="1520681408">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
-      <status xil_pn:value="OutOfDateForProperties"/>
-      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="OutputChanged"/>
       <outfile xil_pn:name="_xmsgs/bitgen.xmsgs"/>
       <outfile xil_pn:name="full_adder.bgn"/>
       <outfile xil_pn:name="full_adder.bit"/>
@@ -254,15 +251,13 @@
       <outfile xil_pn:name="webtalk.log"/>
       <outfile xil_pn:name="webtalk_pn.xml"/>
     </transform>
-    <transform xil_pn:end_ts="1516184011" xil_pn:in_ck="4163305304363799455" xil_pn:name="TRAN_configureTargetDevice" xil_pn:prop_ck="5582947192412673156" xil_pn:start_ts="1516184006">
+    <transform xil_pn:end_ts="1520681450" xil_pn:in_ck="4163305304363799455" xil_pn:name="TRAN_configureTargetDevice" xil_pn:prop_ck="5582947192412673156" xil_pn:start_ts="1520681446">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
-      <status xil_pn:value="OutOfDateForPredecessor"/>
     </transform>
-    <transform xil_pn:end_ts="1516183811" xil_pn:in_ck="5378947724825115187" xil_pn:name="TRAN_postRouteTrce" xil_pn:prop_ck="445577401284416186" xil_pn:start_ts="1516183801">
+    <transform xil_pn:end_ts="1520681213" xil_pn:in_ck="5378947724825115187" xil_pn:name="TRAN_postRouteTrce" xil_pn:prop_ck="445577401284416186" xil_pn:start_ts="1520681211">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
-      <status xil_pn:value="OutOfDateForPredecessor"/>
       <outfile xil_pn:name="_xmsgs/trce.xmsgs"/>
       <outfile xil_pn:name="full_adder.twr"/>
       <outfile xil_pn:name="full_adder.twx"/>

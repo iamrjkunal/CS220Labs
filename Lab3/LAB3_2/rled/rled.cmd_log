@@ -4,3 +4,4 @@ map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o rled_ma
 par -w -intstyle ise -ol high -t 1 rled_map.ncd rled.ncd rled.pcf 
 trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml rled.twx rled.ncd -o rled.twr rled.pcf -ucf rled.ucf 
 bitgen -intstyle ise -f rled.ut rled.ncd 
+xst -intstyle ise -ifn "/home/rjkunal/Desktop/CS220Labs/Lab3/LAB3_2/rled/rled.xst" -ofn "/home/rjkunal/Desktop/CS220Labs/Lab3/LAB3_2/rled/rled.syr" 

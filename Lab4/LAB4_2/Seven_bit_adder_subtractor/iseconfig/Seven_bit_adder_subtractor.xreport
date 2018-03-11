@@ -1,11 +1,11 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <report-views version="2.0" >
  <header>
-  <DateModified>2018-03-09T16:21:38</DateModified>
+  <DateModified>2018-03-11T16:42:40</DateModified>
   <ModuleName>Seven_bit_adder_subtractor</ModuleName>
   <SummaryTimeStamp>Unknown</SummaryTimeStamp>
-  <SavedFilePath>/home/rjkunal/Desktop/CS220Labs/LAB4_2/Seven_bit_adder_subtractor/iseconfig/Seven_bit_adder_subtractor.xreport</SavedFilePath>
-  <ImplementationReportsDirectory>/home/rjkunal/Desktop/CS220Labs/LAB4_2/Seven_bit_adder_subtractor/</ImplementationReportsDirectory>
+  <SavedFilePath>/home/rjkunal/Desktop/CS220Labs/Lab4/LAB4_2/Seven_bit_adder_subtractor/iseconfig/Seven_bit_adder_subtractor.xreport</SavedFilePath>
+  <ImplementationReportsDirectory>/home/rjkunal/Desktop/CS220Labs/Lab4/LAB4_2/Seven_bit_adder_subtractor/</ImplementationReportsDirectory>
   <DateInitialized>2018-03-07T14:29:33</DateInitialized>
   <EnableMessageFiltering>false</EnableMessageFiltering>
  </header>

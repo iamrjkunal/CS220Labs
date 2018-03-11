@@ -18,12 +18,12 @@
 // Additional Comments: 
 //
 //////////////////////////////////////////////////////////////////////////////////
-module full_adder(a,b,cin,s,cout
+module full_adder(a,b,cin,sum,cout
     );
 	input a,b,cin;
-	output s,cout;
-	wire s,cout;
-	assign s = a^b^cin;
+	output sum,cout;
+	wire sum,cout;
+	assign sum = a^b^cin;
 	assign cout = (a&b)|(b&cin)|(cin&a);
 endmodule
 
@@ -75,7 +75,7 @@ module Seven_bit_adder_subtractor(clk,ROT_A,ROT_B,Y,Z,obit
 	reg [6:0]A;
 	reg [6:0]B;
 	reg op;
-	wire rotation_event,st,ct;
+	wire rotation_event;
 	reg prev_rotation_event;
 	initial prev_rotation_event <= 1;
 	reg [2:0] counter;

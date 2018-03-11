@@ -6,7 +6,7 @@ ise -dd _ngo -nt timestamp -uc full_adder.ucf -p xc3s500e-fg320-4 full_adder.ngc
 full_adder.ngd
 
 Reading NGO file
-"/users/btech/rajkush/Desktop/CS220Labs/Lab1_1/full_adder/full_adder.ngc" ...
+"/home/rjkunal/Desktop/CS220Labs/Lab1/Lab1_1/full_adder/full_adder.ngc" ...
 Gathering constraint information from source properties...
 Done.
 
@@ -28,10 +28,10 @@ NGDBUILD Design Results Summary:
   Number of errors:     0
   Number of warnings:   0
 
-Total memory usage is 398236 kilobytes
+Total memory usage is 390292 kilobytes
 
 Writing NGD file "full_adder.ngd" ...
-Total REAL time to NGDBUILD completion:  19 sec
-Total CPU time to NGDBUILD completion:   17 sec
+Total REAL time to NGDBUILD completion:  2 sec
+Total CPU time to NGDBUILD completion:   2 sec
 
 Writing NGDBUILD log file "full_adder.bld"...

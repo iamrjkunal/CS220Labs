@@ -1,8 +1,0 @@
-INTSTYLE=ise
-INFILE=/users/btech/rajkush/Desktop/CS220Labs/rot_shaft/7addsub/seven_add_sub/seven_add_sub.ncd
-OUTFILE=/users/btech/rajkush/Desktop/CS220Labs/rot_shaft/7addsub/seven_add_sub/seven_add_sub.bit
-FAMILY=Spartan3E
-PART=xc3s500e-4fg320
-WORKINGDIR=/users/btech/rajkush/Desktop/CS220Labs/rot_shaft/7addsub/seven_add_sub
-LICENSE=WebPack
-USER_INFO=211450758_0_0_676

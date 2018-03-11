@@ -1,5 +1,0 @@
-set -tmpdir "/users/btech/rajkush/Desktop/CS220Labs/LAB4_2/Seven_bit_adder_subtractor/xst/projnav.tmp"
-set -xsthdpdir "/users/btech/rajkush/Desktop/CS220Labs/LAB4_2/Seven_bit_adder_subtractor/xst"
-elaborate
--ifn seven.prj
--ifmt mixed

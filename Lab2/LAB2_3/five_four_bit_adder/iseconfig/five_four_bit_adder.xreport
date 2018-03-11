@@ -1,11 +1,11 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <report-views version="2.0" >
  <header>
-  <DateModified>2018-02-14T15:10:44</DateModified>
+  <DateModified>2018-03-10T17:28:12</DateModified>
   <ModuleName>five_four_bit_adder</ModuleName>
   <SummaryTimeStamp>Unknown</SummaryTimeStamp>
-  <SavedFilePath>/users/btech/rajkush/Desktop/CS220Labs/LAB2_3/five_four_bit_adder/iseconfig/five_four_bit_adder.xreport</SavedFilePath>
-  <ImplementationReportsDirectory>/users/btech/rajkush/Desktop/CS220Labs/LAB2_3/five_four_bit_adder/</ImplementationReportsDirectory>
+  <SavedFilePath>/home/rjkunal/Desktop/CS220Labs/Lab2/LAB2_3/five_four_bit_adder/iseconfig/five_four_bit_adder.xreport</SavedFilePath>
+  <ImplementationReportsDirectory>/home/rjkunal/Desktop/CS220Labs/Lab2/LAB2_3/five_four_bit_adder/</ImplementationReportsDirectory>
   <DateInitialized>2018-02-14T14:18:08</DateInitialized>
   <EnableMessageFiltering>false</EnableMessageFiltering>
  </header>

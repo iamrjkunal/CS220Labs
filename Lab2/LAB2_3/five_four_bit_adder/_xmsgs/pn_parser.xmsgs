@@ -8,7 +8,7 @@
 <!-- Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.    -->
 
 <messages>
-<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;/users/btech/rajkush/Desktop/CS220Labs/LAB2_3/five_four_bit_adder/five_four_bit_adder.v&quot; into library work</arg>
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;/home/rjkunal/Desktop/CS220Labs/Lab2/LAB2_3/five_four_bit_adder/five_four_bit_adder.v&quot; into library work</arg>
 </msg>
 
 </messages>

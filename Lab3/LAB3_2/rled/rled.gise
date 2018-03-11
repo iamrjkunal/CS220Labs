@@ -31,6 +31,7 @@
     <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/xst.xmsgs"/>
     <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="isim"/>
     <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="planAhead_run_1"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="planAhead_run_2"/>
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_BITGEN_REPORT" xil_pn:name="rled.bgn" xil_pn:subbranch="FPGAConfiguration"/>
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_BIT" xil_pn:name="rled.bit" xil_pn:subbranch="FPGAConfiguration"/>
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGDBUILD_LOG" xil_pn:name="rled.bld"/>
@@ -54,6 +55,7 @@
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_BITGEN_REPORT" xil_pn:name="rled.ut" xil_pn:subbranch="FPGAConfiguration"/>
     <file xil_pn:fileType="FILE_XPI" xil_pn:name="rled.xpi"/>
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST" xil_pn:name="rled.xst"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="rled_envsettings.html"/>
     <file xil_pn:fileType="FILE_NCD" xil_pn:name="rled_guide.ncd" xil_pn:origination="imported"/>
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_MAP_REPORT" xil_pn:name="rled_map.map" xil_pn:subbranch="Map"/>
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_MAP_REPORT" xil_pn:name="rled_map.mrp" xil_pn:subbranch="Map"/>
@@ -80,6 +82,7 @@
   <transforms xmlns="http://www.xilinx.com/XMLSchema">
     <transform xil_pn:end_ts="1518602827" xil_pn:name="TRAN_copyInitialToAbstractSimulation" xil_pn:start_ts="1518602827">
       <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
     </transform>
     <transform xil_pn:end_ts="1518602827" xil_pn:in_ck="4593254443" xil_pn:name="TRAN_copyAbstractToPostAbstractSimulation" xil_pn:start_ts="1518602827">
       <status xil_pn:value="SuccessfullyRun"/>
@@ -88,6 +91,7 @@
     </transform>
     <transform xil_pn:end_ts="1518602839" xil_pn:name="TRAN_copyInitialToXSTAbstractSynthesis" xil_pn:start_ts="1518602839">
       <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
     </transform>
     <transform xil_pn:end_ts="1518602839" xil_pn:name="TRAN_schematicsToHdl" xil_pn:prop_ck="-4847559371634892000" xil_pn:start_ts="1518602839">
       <status xil_pn:value="SuccessfullyRun"/>
@@ -113,11 +117,9 @@
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1518603252" xil_pn:in_ck="4593254443" xil_pn:name="TRANEXT_xstsynthesize_spartan3e" xil_pn:prop_ck="8304090043021194765" xil_pn:start_ts="1518603202">
+    <transform xil_pn:end_ts="1520684137" xil_pn:in_ck="4593254443" xil_pn:name="TRANEXT_xstsynthesize_spartan3e" xil_pn:prop_ck="4526244811354535833" xil_pn:start_ts="1520684131">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
-      <status xil_pn:value="OutOfDateForOutputs"/>
-      <status xil_pn:value="OutputChanged"/>
       <outfile xil_pn:name="_xmsgs/xst.xmsgs"/>
       <outfile xil_pn:name="rled.lso"/>
       <outfile xil_pn:name="rled.ngc"/>
@@ -138,6 +140,8 @@
     <transform xil_pn:end_ts="1518603293" xil_pn:in_ck="7864617179975294816" xil_pn:name="TRANEXT_ngdbuild_FPGA" xil_pn:prop_ck="8291781275902100425" xil_pn:start_ts="1518603260">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="InputChanged"/>
       <outfile xil_pn:name="_ngo"/>
       <outfile xil_pn:name="_xmsgs/ngdbuild.xmsgs"/>
       <outfile xil_pn:name="rled.bld"/>
@@ -147,6 +151,7 @@
     <transform xil_pn:end_ts="1518603316" xil_pn:in_ck="7864618586383913057" xil_pn:name="TRANEXT_map_spartan3" xil_pn:prop_ck="-5849673150125579957" xil_pn:start_ts="1518603293">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
       <status xil_pn:value="OutOfDateForOutputs"/>
       <status xil_pn:value="OutputChanged"/>
       <outfile xil_pn:name="_xmsgs/map.xmsgs"/>
@@ -162,6 +167,7 @@
     <transform xil_pn:end_ts="1518603407" xil_pn:in_ck="4011362576840203514" xil_pn:name="TRANEXT_par_spartan3" xil_pn:prop_ck="-5563652517805085498" xil_pn:start_ts="1518603316">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
       <outfile xil_pn:name="_xmsgs/par.xmsgs"/>
       <outfile xil_pn:name="rled.ncd"/>
       <outfile xil_pn:name="rled.pad"/>
@@ -176,6 +182,10 @@
     <transform xil_pn:end_ts="1518603444" xil_pn:in_ck="5002054083082" xil_pn:name="TRANEXT_bitFile_spartan3e" xil_pn:prop_ck="287829442711806529" xil_pn:start_ts="1518603412">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForProperties"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="OutputChanged"/>
       <outfile xil_pn:name="_xmsgs/bitgen.xmsgs"/>
       <outfile xil_pn:name="rled.bgn"/>
       <outfile xil_pn:name="rled.bit"/>
@@ -188,10 +198,12 @@
     <transform xil_pn:end_ts="1518603457" xil_pn:in_ck="5002054070228" xil_pn:name="TRAN_configureTargetDevice" xil_pn:prop_ck="5582947192412673156" xil_pn:start_ts="1518603455">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
     </transform>
     <transform xil_pn:end_ts="1518603407" xil_pn:in_ck="7864432940446305245" xil_pn:name="TRAN_postRouteTrce" xil_pn:prop_ck="445577401284416186" xil_pn:start_ts="1518603395">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
       <outfile xil_pn:name="_xmsgs/trce.xmsgs"/>
       <outfile xil_pn:name="rled.twr"/>
       <outfile xil_pn:name="rled.twx"/>

@@ -1,11 +1,11 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <report-views version="2.0" >
  <header>
-  <DateModified>2018-01-31T14:26:10</DateModified>
+  <DateModified>2018-03-10T16:58:34</DateModified>
   <ModuleName>full_adder</ModuleName>
-  <SummaryTimeStamp>2018-01-17T15:40:12</SummaryTimeStamp>
-  <SavedFilePath>/users/btech/rajkush/Desktop/CS220Labs/Lab1_1/full_adder/iseconfig/full_adder.xreport</SavedFilePath>
-  <ImplementationReportsDirectory>/users/btech/rajkush/Desktop/CS220Labs/Lab1_1/full_adder/</ImplementationReportsDirectory>
+  <SummaryTimeStamp>2018-03-10T16:56:53</SummaryTimeStamp>
+  <SavedFilePath>/home/rjkunal/Desktop/CS220Labs/Lab1/Lab1_1/full_adder/iseconfig/full_adder.xreport</SavedFilePath>
+  <ImplementationReportsDirectory>/home/rjkunal/Desktop/CS220Labs/Lab1/Lab1_1/full_adder/</ImplementationReportsDirectory>
   <DateInitialized>2018-01-17T15:14:42</DateInitialized>
   <EnableMessageFiltering>false</EnableMessageFiltering>
  </header>

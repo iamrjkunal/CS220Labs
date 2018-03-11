@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="error" file="HDLCompilers" num="246" delta="new" ><arg fmt="%s" index="1">&quot;sq_grid.v&quot; line 137 </arg>Reference to <arg fmt="%s" index="2">vector reg &apos;ledx&apos;</arg> is not a legal net lvalue
+</msg>
+
+<msg type="error" file="HDLCompilers" num="102" delta="new" ><arg fmt="%s" index="1">&quot;sq_grid.v&quot; line 137 </arg>Connection to output port &apos;<arg fmt="%s" index="2">led</arg>&apos; must be a net lvalue
+</msg>
+
+<msg type="error" file="HDLCompilers" num="246" delta="new" ><arg fmt="%s" index="1">&quot;sq_grid.v&quot; line 138 </arg>Reference to <arg fmt="%s" index="2">vector reg &apos;ledx&apos;</arg> is not a legal net lvalue
+</msg>
+
+<msg type="error" file="HDLCompilers" num="102" delta="new" ><arg fmt="%s" index="1">&quot;sq_grid.v&quot; line 138 </arg>Connection to output port &apos;<arg fmt="%s" index="2">led</arg>&apos; must be a net lvalue
+</msg>
+
+<msg type="error" file="HDLCompilers" num="246" delta="new" ><arg fmt="%s" index="1">&quot;sq_grid.v&quot; line 139 </arg>Reference to <arg fmt="%s" index="2">vector reg &apos;ledy&apos;</arg> is not a legal net lvalue
+</msg>
+
+<msg type="error" file="HDLCompilers" num="102" delta="new" ><arg fmt="%s" index="1">&quot;sq_grid.v&quot; line 139 </arg>Connection to output port &apos;<arg fmt="%s" index="2">led</arg>&apos; must be a net lvalue
+</msg>
+
+<msg type="error" file="HDLCompilers" num="246" delta="new" ><arg fmt="%s" index="1">&quot;sq_grid.v&quot; line 140 </arg>Reference to <arg fmt="%s" index="2">vector reg &apos;ledy&apos;</arg> is not a legal net lvalue
+</msg>
+
+<msg type="error" file="HDLCompilers" num="102" delta="new" ><arg fmt="%s" index="1">&quot;sq_grid.v&quot; line 140 </arg>Connection to output port &apos;<arg fmt="%s" index="2">led</arg>&apos; must be a net lvalue
+</msg>
+
+</messages>
+

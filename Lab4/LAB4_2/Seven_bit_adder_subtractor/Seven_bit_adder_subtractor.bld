@@ -6,8 +6,8 @@ ise -dd _ngo -nt timestamp -uc Seven_bit_adder_subtractor.ucf -p
 xc3s500e-fg320-4 Seven_bit_adder_subtractor.ngc Seven_bit_adder_subtractor.ngd
 
 Reading NGO file
-"/home/rjkunal/Desktop/CS220Labs/LAB4_2/Seven_bit_adder_subtractor/Seven_bit_add
-er_subtractor.ngc" ...
+"/home/rjkunal/Desktop/CS220Labs/Lab4/LAB4_2/Seven_bit_adder_subtractor/Seven_bi
+t_adder_subtractor.ngc" ...
 Gathering constraint information from source properties...
 Done.
 
@@ -34,10 +34,10 @@ NGDBUILD Design Results Summary:
   Number of errors:     0
   Number of warnings:   0
 
-Total memory usage is 390540 kilobytes
+Total memory usage is 390228 kilobytes
 
 Writing NGD file "Seven_bit_adder_subtractor.ngd" ...
-Total REAL time to NGDBUILD completion:  12 sec
+Total REAL time to NGDBUILD completion:  2 sec
 Total CPU time to NGDBUILD completion:   2 sec
 
 Writing NGDBUILD log file "Seven_bit_adder_subtractor.bld"...

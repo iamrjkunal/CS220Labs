@@ -1,0 +1,1 @@
+xst -intstyle ise -ifn "/home/rjkunal/Desktop/CS220Labs/Lab4/sq_grid/sq_grid.xst" -ofn "/home/rjkunal/Desktop/CS220Labs/Lab4/sq_grid/sq_grid.syr" 

@@ -19,3 +19,4 @@ map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o rotor_m
 par -w -intstyle ise -ol high -t 1 rotor_map.ncd rotor.ncd rotor.pcf 
 trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml rotor.twx rotor.ncd -o rotor.twr rotor.pcf -ucf rotor.ucf 
 bitgen -intstyle ise -f rotor.ut rotor.ncd 
+xst -intstyle ise -ifn "/home/rjkunal/Desktop/CS220Labs/Lab4/LAB4_1/rotor/rotor.xst" -ofn "/home/rjkunal/Desktop/CS220Labs/Lab4/LAB4_1/rotor/rotor.syr" 
