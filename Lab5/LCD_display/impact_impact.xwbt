@@ -1,0 +1,8 @@
+INTSTYLE=impact
+INFILE=/users/btech/akashks/LCD_display/impact.xsl
+OUTFILE=/users/btech/akashks/LCD_display/impact.xsl
+FAMILY=Multiple
+PART=Multiple
+WORKINGDIR=/users/btech/akashks/LCD_display
+LICENSE=iMPACT
+USER_INFO=iMPACT
