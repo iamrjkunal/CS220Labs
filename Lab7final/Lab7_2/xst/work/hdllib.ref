@@ -1,0 +1,8 @@
+MO lcd_driver NULL lcd_driver.v vlg46/lcd__driver.bin 1521578494
+MO detector NULL detector.v vlg02/detector.bin 1521578494
+MO one_bit_comparator NULL comp.v vlg2B/one__bit__comparator.bin 1521578494
+MO calc_xor NULL calc_xor.v vlg17/calc__xor.bin 1521578494
+MO right_shift NULL right_shift.v vlg1B/right__shift.bin 1521578494
+MO top NULL top.v vlg6F/top.bin 1521578494
+MO interface NULL interface.v vlg09/interface.bin 1521578494
+MO comp NULL comp.v vlg3F/comp.bin 1521578494

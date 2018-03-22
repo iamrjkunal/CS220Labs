@@ -10,13 +10,13 @@
          <ClosedNode>/Seven_bit_adder_subtractor |users|btech|rajkush|Desktop|CS220Labs|LAB4_2|Seven_bit_adder_subtractor|Seven_bit_adder_subtractor.v/s7 - seven</ClosedNode>
       </ClosedNodes>
       <SelectedItems>
-         <SelectedItem>Seven_bit_adder_subtractor (/home/rjkunal/Desktop/CS220Labs/Lab4/LAB4_2/Seven_bit_adder_subtractor/Seven_bit_adder_subtractor.v)</SelectedItem>
+         <SelectedItem>Seven_bit_adder_subtractor (/home/rjkunal/devilzone_home/CS220Labs/Lab4/LAB4_2/Seven_bit_adder_subtractor/Seven_bit_adder_subtractor.v)</SelectedItem>
       </SelectedItems>
       <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
       <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
       <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000202000000010000000100000064000001f9000000020000000000000000000000000200000064ffffffff000000810000000300000002000001f90000000100000003000000000000000100000003</ViewHeaderState>
       <UserChangedColumnWidths orientation="horizontal" >true</UserChangedColumnWidths>
-      <CurrentItem>Seven_bit_adder_subtractor (/home/rjkunal/Desktop/CS220Labs/Lab4/LAB4_2/Seven_bit_adder_subtractor/Seven_bit_adder_subtractor.v)</CurrentItem>
+      <CurrentItem>Seven_bit_adder_subtractor (/home/rjkunal/devilzone_home/CS220Labs/Lab4/LAB4_2/Seven_bit_adder_subtractor/Seven_bit_adder_subtractor.v)</CurrentItem>
    </ItemView>
    <ItemView engineview="SynthesisOnly" sourcetype="" guiview="Process" >
       <ClosedNodes>
@@ -24,13 +24,13 @@
          <ClosedNode>Design Utilities</ClosedNode>
       </ClosedNodes>
       <SelectedItems>
-         <SelectedItem/>
+         <SelectedItem></SelectedItem>
       </SelectedItems>
       <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
       <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
-      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000000000000000000125000000010000000100000000000000000000000064ffffffff000000810000000000000001000001250000000100000000</ViewHeaderState>
+      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000000000000000000f4000000010000000100000000000000000000000064ffffffff000000810000000000000001000000f40000000100000000</ViewHeaderState>
       <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
-      <CurrentItem/>
+      <CurrentItem></CurrentItem>
    </ItemView>
    <ItemView guiview="File" >
       <ClosedNodes>

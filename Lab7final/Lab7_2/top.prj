@@ -1,0 +1,7 @@
+verilog work "right_shift.v"
+verilog work "comp.v"
+verilog work "calc_xor.v"
+verilog work "lcd_driver.v"
+verilog work "interface.v"
+verilog work "detector.v"
+verilog work "top.v"

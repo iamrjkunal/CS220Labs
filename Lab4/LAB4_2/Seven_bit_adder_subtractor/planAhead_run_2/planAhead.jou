@@ -1,0 +1,11 @@
+#-----------------------------------------------------------
+# PlanAhead v14.7 (64-bit)
+# Build 321239 by xbuild on Fri Sep 27 19:24:36 MDT 2013
+# Start of session at: Wed Mar 14 15:05:20 2018
+# Process ID: 9958
+# Log file: /home/rjkunal/Desktop/CS220Labs/Lab4/LAB4_2/Seven_bit_adder_subtractor/planAhead_run_2/planAhead.log
+# Journal file: /home/rjkunal/Desktop/CS220Labs/Lab4/LAB4_2/Seven_bit_adder_subtractor/planAhead_run_2/planAhead.jou
+#-----------------------------------------------------------
+start_gui
+source /home/rjkunal/Desktop/CS220Labs/Lab4/LAB4_2/Seven_bit_adder_subtractor/pa.fromHdl.tcl
+update_compile_order -fileset sim_1

@@ -1,8 +1,8 @@
 INTSTYLE=ise
-INFILE=/users/btech/akashks/LCD_display/main.ncd
-OUTFILE=/users/btech/akashks/LCD_display/main.bit
+INFILE=/home/rjkunal/Desktop/CS220Labs/Lab5/LCD_display/main.ncd
+OUTFILE=/home/rjkunal/Desktop/CS220Labs/Lab5/LCD_display/main.bit
 FAMILY=Spartan3E
 PART=xc3s500e-4fg320
-WORKINGDIR=/users/btech/akashks/LCD_display
+WORKINGDIR=/home/rjkunal/Desktop/CS220Labs/Lab5/LCD_display
 LICENSE=WebPack
 USER_INFO=211450758_0_0_676
