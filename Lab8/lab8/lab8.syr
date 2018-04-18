@@ -1,0 +1,392 @@
+Release 14.7 - xst P.20131013 (lin64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> 
+Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 1.00 secs
+Total CPU time to Xst completion: 0.03 secs
+ 
+--> 
+Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 1.00 secs
+Total CPU time to Xst completion: 0.04 secs
+ 
+--> 
+Reading design: lab8.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Compilation
+  3) Design Hierarchy Analysis
+  4) HDL Analysis
+  5) HDL Synthesis
+     5.1) HDL Synthesis Report
+  6) Advanced HDL Synthesis
+     6.1) Advanced HDL Synthesis Report
+  7) Low Level Synthesis
+  8) Partition Report
+  9) Final Report
+	9.1) Device utilization summary
+	9.2) Partition Resource Summary
+	9.3) TIMING REPORT
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "lab8.prj"
+Input Format                       : mixed
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "lab8"
+Output Format                      : NGC
+Target Device                      : xc3s500e-4-fg320
+
+---- Source Options
+Top Module Name                    : lab8
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Mux Style                          : Auto
+Decoder Extraction                 : YES
+Priority Encoder Extraction        : Yes
+Shift Register Extraction          : YES
+Logical Shifter Extraction         : YES
+XOR Collapsing                     : YES
+ROM Style                          : Auto
+Mux Extraction                     : Yes
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Multiplier Style                   : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 500
+Add Generic Clock Buffer(BUFG)     : 24
+Register Duplication               : YES
+Slice Packing                      : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Yes
+Use Synchronous Set                : Yes
+Use Synchronous Reset              : Yes
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+Verilog 2001                       : YES
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling verilog file "lab8.v" in library work
+Module <xor_data> compiled
+Module <decode> compiled
+Module <lab8> compiled
+No errors in compilation
+Analysis of file <"lab8.prj"> succeeded.
+ 
+
+=========================================================================
+*                     Design Hierarchy Analysis                         *
+=========================================================================
+Analyzing hierarchy for module <lab8> in library <work>.
+
+Analyzing hierarchy for module <decode> in library <work>.
+
+Analyzing hierarchy for module <xor_data> in library <work>.
+
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing top module <lab8>.
+WARNING:Xst:2319 - "lab8.v" line 67: Signal memory in initial block is partially initialized. The initialization will be ignored.
+Module <lab8> is correct for synthesis.
+ 
+Analyzing module <decode> in library <work>.
+Module <decode> is correct for synthesis.
+ 
+Analyzing module <xor_data> in library <work>.
+Module <xor_data> is correct for synthesis.
+ 
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Performing bidirectional port resolution...
+
+Synthesizing Unit <decode>.
+    Related source file is "lab8.v".
+Unit <decode> synthesized.
+
+
+Synthesizing Unit <xor_data>.
+    Related source file is "lab8.v".
+    Found 8-bit xor2 for signal <out>.
+Unit <xor_data> synthesized.
+
+
+Synthesizing Unit <lab8>.
+    Related source file is "lab8.v".
+WARNING:Xst:646 - Signal <temp3<0:5>> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:646 - Signal <temp<7:3>> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:653 - Signal <memory<8:13>> is used but never assigned. This sourceless signal will be automatically connected to value 00000000.
+WARNING:Xst:1780 - Signal <memory<14:31>> is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+    Using one-hot encoding for signal <counter>.
+    Using one-hot encoding for signal <$old_counter_1>.
+    Using one-hot encoding for signal <$old_counter_2>.
+    Using one-hot encoding for signal <$old_counter_3>.
+    Using one-hot encoding for signal <$old_counter_4>.
+    Using one-hot encoding for signal <$old_counter_5>.
+    Using one-hot encoding for signal <$old_counter_6>.
+    Using one-hot encoding for signal <$old_counter_7>.
+    Found 8-bit register for signal <led>.
+    Found 8-bit register for signal <counter>.
+    Found 1-bit register for signal <flag>.
+    Found 64-bit register for signal <memory<0:7>>.
+    Found 1-bit xor8 for signal <parity>.
+    Found 8-bit register for signal <temp>.
+    Summary:
+	inferred  89 D-type flip-flop(s).
+	inferred   1 Xor(s).
+Unit <lab8> synthesized.
+
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Registers                                            : 19
+ 1-bit register                                        : 9
+ 8-bit register                                        : 10
+# Xors                                                 : 57
+ 1-bit xor2                                            : 56
+ 1-bit xor8                                            : 1
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+WARNING:Xst:1290 - Hierarchical block <d> is unconnected in block <lab8>.
+   It will be removed from the design.
+WARNING:Xst:1290 - Hierarchical block <d1> is unconnected in block <lab8>.
+   It will be removed from the design.
+WARNING:Xst:1290 - Hierarchical block <d2> is unconnected in block <lab8>.
+   It will be removed from the design.
+WARNING:Xst:1290 - Hierarchical block <d3> is unconnected in block <lab8>.
+   It will be removed from the design.
+WARNING:Xst:1290 - Hierarchical block <d4> is unconnected in block <lab8>.
+   It will be removed from the design.
+WARNING:Xst:1290 - Hierarchical block <d5> is unconnected in block <lab8>.
+   It will be removed from the design.
+WARNING:Xst:1290 - Hierarchical block <d6> is unconnected in block <lab8>.
+   It will be removed from the design.
+WARNING:Xst:1710 - FF/Latch <led_6> (without init value) has a constant value of 0 in block <lab8>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <led_7> (without init value) has a constant value of 0 in block <lab8>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <led_5> (without init value) has a constant value of 0 in block <lab8>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <led_4> (without init value) has a constant value of 0 in block <lab8>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <led_1> (without init value) has a constant value of 0 in block <lab8>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <led_3> (without init value) has a constant value of 0 in block <lab8>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <led_2> (without init value) has a constant value of 0 in block <lab8>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:2677 - Node <temp_3> of sequential type is unconnected in block <lab8>.
+WARNING:Xst:2677 - Node <temp_4> of sequential type is unconnected in block <lab8>.
+WARNING:Xst:2677 - Node <temp_5> of sequential type is unconnected in block <lab8>.
+WARNING:Xst:2677 - Node <temp_6> of sequential type is unconnected in block <lab8>.
+WARNING:Xst:2677 - Node <temp_7> of sequential type is unconnected in block <lab8>.
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# Registers                                            : 84
+ Flip-Flops                                            : 84
+# Xors                                                 : 57
+ 1-bit xor2                                            : 56
+ 1-bit xor8                                            : 1
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+WARNING:Xst:1989 - Unit <lab8>: instances <d5>, <d6> of unit <xor_data> are equivalent, second instance is removed
+WARNING:Xst:1426 - The value init of the FF/Latch counter_0 hinder the constant cleaning in the block lab8.
+   You should achieve better results by setting this init to 0.
+WARNING:Xst:1293 - FF/Latch <counter_1> has a constant value of 0 in block <lab8>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <counter_2> has a constant value of 0 in block <lab8>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <counter_3> has a constant value of 0 in block <lab8>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <counter_4> has a constant value of 0 in block <lab8>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <counter_5> has a constant value of 0 in block <lab8>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <counter_6> has a constant value of 0 in block <lab8>. This FF/Latch will be trimmed during the optimization process.
+INFO:Xst:2261 - The FF/Latch <memory_0_0> in Unit <lab8> is equivalent to the following 6 FFs/Latches, which will be removed : <memory_1_0> <memory_4_0> <memory_2_0> <memory_3_0> <memory_5_0> <memory_6_0> 
+INFO:Xst:2261 - The FF/Latch <memory_0_1> in Unit <lab8> is equivalent to the following 6 FFs/Latches, which will be removed : <memory_1_1> <memory_4_1> <memory_2_1> <memory_3_1> <memory_5_1> <memory_6_1> 
+INFO:Xst:2261 - The FF/Latch <memory_0_2> in Unit <lab8> is equivalent to the following 6 FFs/Latches, which will be removed : <memory_1_2> <memory_4_2> <memory_2_2> <memory_3_2> <memory_5_2> <memory_6_2> 
+INFO:Xst:2261 - The FF/Latch <memory_0_3> in Unit <lab8> is equivalent to the following 6 FFs/Latches, which will be removed : <memory_1_3> <memory_4_3> <memory_2_3> <memory_3_3> <memory_5_3> <memory_6_3> 
+INFO:Xst:2261 - The FF/Latch <memory_0_4> in Unit <lab8> is equivalent to the following 6 FFs/Latches, which will be removed : <memory_1_4> <memory_4_4> <memory_2_4> <memory_3_4> <memory_5_4> <memory_6_4> 
+INFO:Xst:2261 - The FF/Latch <memory_0_5> in Unit <lab8> is equivalent to the following 6 FFs/Latches, which will be removed : <memory_1_5> <memory_4_5> <memory_2_5> <memory_3_5> <memory_5_5> <memory_6_5> 
+INFO:Xst:2261 - The FF/Latch <memory_0_6> in Unit <lab8> is equivalent to the following 6 FFs/Latches, which will be removed : <memory_1_6> <memory_4_6> <memory_2_6> <memory_3_6> <memory_5_6> <memory_6_6> 
+INFO:Xst:2261 - The FF/Latch <memory_0_7> in Unit <lab8> is equivalent to the following 6 FFs/Latches, which will be removed : <memory_1_7> <memory_4_7> <memory_2_7> <memory_3_7> <memory_5_7> <memory_6_7> 
+INFO:Xst:2261 - The FF/Latch <led_6> in Unit <lab8> is equivalent to the following 6 FFs/Latches, which will be removed : <led_7> <led_5> <led_4> <led_3> <led_2> <led_1> 
+WARNING:Xst:1710 - FF/Latch <led_6> (without init value) has a constant value of 0 in block <lab8>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:2677 - Node <temp_0> of sequential type is unconnected in block <lab8>.
+WARNING:Xst:2677 - Node <temp_1> of sequential type is unconnected in block <lab8>.
+WARNING:Xst:2677 - Node <temp_2> of sequential type is unconnected in block <lab8>.
+WARNING:Xst:2677 - Node <counter_0> of sequential type is unconnected in block <lab8>.
+WARNING:Xst:2677 - Node <counter_7> of sequential type is unconnected in block <lab8>.
+WARNING:Xst:2677 - Node <memory_0_0> of sequential type is unconnected in block <lab8>.
+WARNING:Xst:2677 - Node <memory_0_1> of sequential type is unconnected in block <lab8>.
+WARNING:Xst:2677 - Node <memory_0_2> of sequential type is unconnected in block <lab8>.
+WARNING:Xst:2677 - Node <memory_0_3> of sequential type is unconnected in block <lab8>.
+WARNING:Xst:2677 - Node <memory_0_4> of sequential type is unconnected in block <lab8>.
+WARNING:Xst:2677 - Node <memory_0_5> of sequential type is unconnected in block <lab8>.
+WARNING:Xst:2677 - Node <memory_0_6> of sequential type is unconnected in block <lab8>.
+WARNING:Xst:2677 - Node <memory_0_7> of sequential type is unconnected in block <lab8>.
+WARNING:Xst:2677 - Node <memory_7_0> of sequential type is unconnected in block <lab8>.
+WARNING:Xst:2677 - Node <memory_7_1> of sequential type is unconnected in block <lab8>.
+WARNING:Xst:2677 - Node <memory_7_2> of sequential type is unconnected in block <lab8>.
+WARNING:Xst:2677 - Node <memory_7_3> of sequential type is unconnected in block <lab8>.
+WARNING:Xst:2677 - Node <memory_7_4> of sequential type is unconnected in block <lab8>.
+WARNING:Xst:2677 - Node <memory_7_5> of sequential type is unconnected in block <lab8>.
+WARNING:Xst:2677 - Node <memory_7_6> of sequential type is unconnected in block <lab8>.
+WARNING:Xst:2677 - Node <memory_7_7> of sequential type is unconnected in block <lab8>.
+WARNING:Xst:1710 - FF/Latch <led_0> (without init value) has a constant value of 0 in block <lab8>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:2677 - Node <flag> of sequential type is unconnected in block <lab8>.
+
+Optimizing unit <lab8> ...
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block lab8, actual ratio is 0.
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Found no macro
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+Final Results
+RTL Top Level Output File Name     : lab8.ngr
+Top Level Output File Name         : lab8
+Output Format                      : NGC
+Optimization Goal                  : Speed
+Keep Hierarchy                     : No
+
+Design Statistics
+# IOs                              : 10
+
+Cell Usage :
+# BELS                             : 1
+#      GND                         : 1
+# IO Buffers                       : 8
+#      OBUF                        : 8
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 3s500efg320-4 
+
+ Number of Slices:                        0  out of   4656     0%  
+ Number of IOs:                          10
+ Number of bonded IOBs:                   8  out of    232     3%  
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+TIMING REPORT
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+No clock signals found in this design
+
+Asynchronous Control Signals Information:
+----------------------------------------
+No asynchronous control signals found in this design
+
+Timing Summary:
+---------------
+Speed Grade: -4
+
+   Minimum period: No path found
+   Minimum input arrival time before clock: No path found
+   Maximum output required time after clock: No path found
+   Maximum combinational path delay: No path found
+
+Timing Detail:
+--------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 4.00 secs
+Total CPU time to Xst completion: 2.91 secs
+ 
+--> 
+
+
+Total memory usage is 511948 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :   57 (   0 filtered)
+Number of infos    :    9 (   0 filtered)
+

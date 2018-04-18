@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=/home/rjkunal/devilzone_home/CS220Labs/Lab8/lab8/lab8.ncd
+OUTFILE=/home/rjkunal/devilzone_home/CS220Labs/Lab8/lab8/lab8.bit
+FAMILY=Spartan3E
+PART=xc3s500e-4fg320
+WORKINGDIR=/home/rjkunal/devilzone_home/CS220Labs/Lab8/lab8
+LICENSE=WebPack
+USER_INFO=211450758_0_0_676

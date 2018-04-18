@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated   -->
+<!--     by the Xilinx ISE software.  Any direct editing or        -->
+<!--     changes made to this file may result in unpredictable     -->
+<!--     behavior or data corruption.  It is strongly advised that -->
+<!--     users do not edit the contents of this file.              -->
+<!--                                                               -->
+<!-- Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.    -->
+
+<messages>
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;/home/rjkunal/devilzone_home/CS220Labs/Lab10/lab10/lab10.v&quot; into library work</arg>
+</msg>
+
+<msg type="error" file="ProjectMgmt" num="806" >&quot;<arg fmt="%s" index="1">/home/rjkunal/devilzone_home/CS220Labs/Lab10/lab10/lab10.v</arg>&quot; Line <arg fmt="%d" index="2">44</arg>. <arg fmt="%s" index="3">Syntax error near &quot;00000&quot;.</arg>
+</msg>
+
+<msg type="error" file="ProjectMgmt" num="806" >&quot;<arg fmt="%s" index="1">/home/rjkunal/devilzone_home/CS220Labs/Lab10/lab10/lab10.v</arg>&quot; Line <arg fmt="%d" index="2">45</arg>. <arg fmt="%s" index="3">Syntax error near &quot;00000&quot;.</arg>
+</msg>
+
+<msg type="error" file="ProjectMgmt" num="806" >&quot;<arg fmt="%s" index="1">/home/rjkunal/devilzone_home/CS220Labs/Lab10/lab10/lab10.v</arg>&quot; Line <arg fmt="%d" index="2">46</arg>. <arg fmt="%s" index="3">Syntax error near &quot;00001&quot;.</arg>
+</msg>
+
+<msg type="error" file="ProjectMgmt" num="806" >&quot;<arg fmt="%s" index="1">/home/rjkunal/devilzone_home/CS220Labs/Lab10/lab10/lab10.v</arg>&quot; Line <arg fmt="%d" index="2">47</arg>. <arg fmt="%s" index="3">Syntax error near &quot;00000&quot;.</arg>
+</msg>
+
+<msg type="error" file="ProjectMgmt" num="806" >&quot;<arg fmt="%s" index="1">/home/rjkunal/devilzone_home/CS220Labs/Lab10/lab10/lab10.v</arg>&quot; Line <arg fmt="%d" index="2">48</arg>. <arg fmt="%s" index="3">Syntax error near &quot;00000&quot;.</arg>
+</msg>
+
+<msg type="error" file="ProjectMgmt" num="806" >&quot;<arg fmt="%s" index="1">/home/rjkunal/devilzone_home/CS220Labs/Lab10/lab10/lab10.v</arg>&quot; Line <arg fmt="%d" index="2">49</arg>. <arg fmt="%s" index="3">Syntax error near &quot;00101&quot;.</arg>
+</msg>
+
+<msg type="error" file="ProjectMgmt" num="806" >&quot;<arg fmt="%s" index="1">/home/rjkunal/devilzone_home/CS220Labs/Lab10/lab10/lab10.v</arg>&quot; Line <arg fmt="%d" index="2">50</arg>. <arg fmt="%s" index="3">Syntax error near &quot;00011&quot;.</arg>
+</msg>
+
+<msg type="error" file="ProjectMgmt" num="806" >&quot;<arg fmt="%s" index="1">/home/rjkunal/devilzone_home/CS220Labs/Lab10/lab10/lab10.v</arg>&quot; Line <arg fmt="%d" index="2">51</arg>. <arg fmt="%s" index="3">Syntax error near &quot;00010&quot;.</arg>
+</msg>
+
+<msg type="error" file="ProjectMgmt" num="806" >&quot;<arg fmt="%s" index="1">/home/rjkunal/devilzone_home/CS220Labs/Lab10/lab10/lab10.v</arg>&quot; Line <arg fmt="%d" index="2">52</arg>. <arg fmt="%s" index="3">Syntax error near &quot;00011&quot;.</arg>
+</msg>
+
+<msg type="error" file="ProjectMgmt" num="806" >&quot;<arg fmt="%s" index="1">/home/rjkunal/devilzone_home/CS220Labs/Lab10/lab10/lab10.v</arg>&quot; Line <arg fmt="%d" index="2">53</arg>. <arg fmt="%s" index="3">Syntax error near &quot;00001&quot;.</arg>
+</msg>
+
+<msg type="error" file="ProjectMgmt" num="806" >&quot;<arg fmt="%s" index="1">/home/rjkunal/devilzone_home/CS220Labs/Lab10/lab10/lab10.v</arg>&quot; Line <arg fmt="%d" index="2">54</arg>. <arg fmt="%s" index="3">Syntax error near &quot;00000&quot;.</arg>
+</msg>
+
+<msg type="error" file="ProjectMgmt" num="806" >&quot;<arg fmt="%s" index="1">/home/rjkunal/devilzone_home/CS220Labs/Lab10/lab10/lab10.v</arg>&quot; Line <arg fmt="%d" index="2">55</arg>. <arg fmt="%s" index="3">Syntax error near &quot;11111&quot;.</arg>
+</msg>
+
+<msg type="error" file="ProjectMgmt" num="806" >&quot;<arg fmt="%s" index="1">/home/rjkunal/devilzone_home/CS220Labs/Lab10/lab10/lab10.v</arg>&quot; Line <arg fmt="%d" index="2">56</arg>. <arg fmt="%s" index="3">Syntax error near &quot;00000&quot;.</arg>
+</msg>
+
+<msg type="error" file="ProjectMgmt" num="806" >&quot;<arg fmt="%s" index="1">/home/rjkunal/devilzone_home/CS220Labs/Lab10/lab10/lab10.v</arg>&quot; Line <arg fmt="%d" index="2">57</arg>. <arg fmt="%s" index="3">Syntax error near &quot;00000&quot;.</arg>
+</msg>
+
+<msg type="error" file="ProjectMgmt" num="806" >&quot;<arg fmt="%s" index="1">/home/rjkunal/devilzone_home/CS220Labs/Lab10/lab10/lab10.v</arg>&quot; Line <arg fmt="%d" index="2">89</arg>. <arg fmt="%s" index="3">Syntax error near &quot;temp1&quot;.</arg>
+</msg>
+
+<msg type="error" file="ProjectMgmt" num="806" >&quot;<arg fmt="%s" index="1">/home/rjkunal/devilzone_home/CS220Labs/Lab10/lab10/lab10.v</arg>&quot; Line <arg fmt="%d" index="2">109</arg>. <arg fmt="%s" index="3">Syntax error near &quot;==&quot;.</arg>
+</msg>
+
+</messages>
+
